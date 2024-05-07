@@ -1,0 +1,95 @@
+<section id="fe_vi" class="fei_vi">
+            <div class="container-fluid">
+                
+      
+                <div class="row justify-content-center">
+                    <div class="seção-titulo">
+                            <h1>Feira Virtual 14ª BRAGANTEC</h1 >
+                        <h3>Confira abaixo as áreas temáticas do evento, e os projetos participantes!</h3>
+                        
+                    </div>
+
+                    <div class="col-xl-5 col-lg-6 d-flex flex-column align-items-stretch justify-content-center px-lg-5">         
+                        <a href="eng.html">
+                            <div class="card">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <img src="assets/img/fei_vi/cne.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">CIÊNCIAS DA NATUREZA E EXATAS</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>   
+                    </div>
+
+                    <div class="col-xl-5 col-lg-6 d-flex flex-column align-items-stretch justify-content-center px-lg-5">     
+                        <a href="eng.html">       
+                            <div class="card">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <img src="assets/img/fei_vi/chl.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">CIÊNCIAS DA NATUREZA E EXATAS</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-xl-5 col-lg-6 d-flex flex-column align-items-stretch justify-content-center px-lg-5">   
+                        <a href="eng.html">         
+                            <div class="card">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <img src="assets/img/fei_vi/eng.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">ENGENHARIA</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>    
+                    </div>
+
+                    <div class="col-xl-5 col-lg-6 d-flex flex-column align-items-stretch justify-content-center px-lg-5">  
+                        <a href="eng.html">            
+                            <div class="card">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <img src="assets/img/fei_vi/inf.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">INFORMÁTICA</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>    
+                    </div>
+
+                    <br>    
+                </div>
+            </div>
+        </section>

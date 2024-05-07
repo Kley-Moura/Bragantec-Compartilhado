@@ -1,0 +1,381 @@
+outro participe
+
+<section id="participe" class="participe">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="seção-titulo">
+                        <h3>Como participar</h3>
+                        
+                </div>  
+                    <div class="row justify-content-center">
+                        <div class="col-xl-10">
+                            <div class="row">
+                        
+                                <div class="card">
+                                    <div class="card-body">
+                                        
+                                        <div class="boxscroll">
+                                            <nav>
+                                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><div class="section-title-nav"><h2>Regras Gerais</h2></div></button>
+                                                    <button class="nav-link" id="nav-comunidade-tab" data-bs-toggle="tab" data-bs-target="#nav-comunidade" type="button" role="tab" aria-controls="nav-comunidade" aria-selected="false" tabindex="-1"><div class="section-title-nav"><h2>Regras para comunidade externa</h2></div></button>
+                                                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" tabindex="-1"><div class="section-title-nav"><h2>Regras para alunos</h2></div></button>
+                                                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false" tabindex="-1"><div class="section-title-nav"><h2>Regras para servidores</h2></div></button>
+                                                    <!--<button class="nav-link" id="nav-download-tab" data-bs-toggle="tab" data-bs-target="#nav-download" type="button" role="tab" aria-controls="nav-download" aria-selected="false"><div class="section-title-nav"><h2>Download dos documentos</h2></div></button>-->
+                                                </div>
+                                            </nav>
+
+                                            <div class="tab-content" id="nav-tabContent">
+
+                                            <!--Aba numero 1aaa-->   
+
+                                                <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                                    <!---->                               
+                                                    <div class="container-fluid">
+                                                        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                                                            <div class="section-title">
+                                                                <h3><span>CAPÍTULO I</span> </h3>
+                                                            </div>
+                                                            
+                                                            <div class="row justify-content-center">
+                                                                <p> <strong> 1.	DAS NORMAS GERAIS E DE ORGANIZAÇÃO</strong><br></p> 
+                                                                <p> 1.1	Este Regulamento normatiza o uso, funcionamento e regras de segurança do Laboratório IFMaker, bem como os direitos e deveres dos usuários. 
+                                                                </p> 
+                                                                <p>1.2	A responsabilidade do Laboratório IFMaker é conjunta e estará a cargo do Diretor Adjunto Educacional, dos Coordenadores dos Cursos, dos Professores, dos Técnicos de Laboratório de caráter efetivo na instituição, dos Bolsistas ou Voluntários e dos Estagiários.
+                                                                </p> 
+                                                                <p><strong>Parágrafo Único –</strong> Nos casos em que o laboratório for solicitado para atividades que não seja as funções usuais do mesmo, como: eventos, feiras, exposições, palestras, inaugurações, cerimônias, a responsabilidade pelos laboratórios e seus equipamentos passará para o requisitante da solicitação durante o período de autorização de utilização do laboratório (Anexo I). O período de autorização inclui as etapas de preparação do evento e reorganização do laboratório e equipamentos às suas condições iniciais. A autorização deve ser solicitada ao Diretor Adjunto Educacional.
+                                                                </p> 
+                                                                <p>1.3	São considerados usuários deste laboratório os servidores desta instituição, estudantes dos cursos ofertados neste campus e a comunidade externa.  
+                                                                </p> 
+                                                            </div>
+
+                                                            <div class="section-title">
+                                                                <h3><span>CAPÍTULO III</span></h3>
+                                                            </div>
+
+                                                            <div class="row justify-content-center">
+                                                                <p><strong> 3. OBJETIVO DESTE LABORATÓRIO</strong><br></p>
+                                                                <p>3.1	É objetivo do laboratório IFMaker é  servir como instrumento de ensino, aprendizado, pesquisa e extensão, proporcionando ambiente adequado para a realização de atividades curriculares e extracurriculares, sejam estas direcionadas aos alunos ou a comunidade externa.
+                                                                </p> 
+                                                            </div>
+
+                                                            <div class="section-title">
+                                                                <h3><span>CAPÍTULO IV </span></h3>
+                                                            </div>
+
+
+                                                            <div class="section-title">
+                                                                <h3><span>CAPÍTULO V</span></h3>
+                                                            </div>
+
+                                                            <div class="row justify-content-center">
+                                                                <p><strong>5. DA SEGURANÇA DO LABORATÓRIO IFMAKER</strong><br></p>
+                                                                <p>5.1	Como regras de segurança do laboratório IFMaker, determina-se:  </p> 
+                                                                <ul>
+                                                                    <ul>
+                                                                        <ul>
+                                                                            <li>I. É obrigatório o uso de EPI (Equipamentos de Proteção individual), no  laboratório IFMaker, sendo de total responsabilidade do usuário a aquisição e zelo pelo próprio equipamento.</li>
+                                                                            <li>II. Cada equipamento retém normas de segurança previstas pelo fabricante do equipamento, portanto, todo usuário tem a obrigação de seguir a todos os procedimentos impostos, bem como aos avisos e sinalizações;</li>
+                                                                            <li>III. Durante o uso dos equipamentos do Laboratório IFMaker, é obrigatorio a retirada de acessórios (anéis, correntes, brincos, relógios, entre outros) e cabelos longos devem ser amarrados;</li>
+                                                                            <li>IV. É proibido ligar qualquer equipamento e/ou máquina sem autorização do professor ou Técnico de Laboratório;</li>
+                                                                            <li>V. Utilizar roupas com mangas curtas, fechadas, sem laços, alças ou fitas aparentes, durante a operação de máquinas operatrizes;</li>
+                                                                            <li>VI. Antes de ligar qualquer equipamento e/ou máquina, certifique-se de que as conexões estejam seguras, sem partes soltas ou mal instaladas;</li>
+                                                                            <li>VII. Sempre utilize as ferramentas corretas para evitar acidentes; </li>
+                                                                            <li>VIII. Não jogar material insolúvel nas pias (sílica, carvão ativado, etc.); </li>
+                                                                        </ul>
+                                                                    </ul>
+                                                                </ul>
+                                                            </div>
+
+                                                            <div class="section-title">
+                                                                <h3><span>CAPÍTULO VI </span></h3>
+                                                            </div>
+
+                                                            <div class="row justify-content-center">
+                                                                <p><strong> 6. ORIENTAÇÕES EM CASO DE ACIDENTE</strong><br></p>
+                                                                <p>6.1	Em qualquer situação de emergência manter a calma e comunicar imediatamente ao professor responsável e/ou técnico. O responsável deve informar imediatamente a Coordenação de Apoio ao Ensino (CAE). </p>
+                                                                <p>6.2	Em caso de incêndio o grupo de brigada do IFSP BRA deve ser comunicado imediatamente; </p> 
+                                                                <p>6.3	Se necessário, os alunos menores de idade devem ser acompanhados por um servidor até o hospital, aguardando a chegada do responsável legal;</p> 
+                                                                <p>6.4	Cortes mesmo leves devem ser lavados com água em abundância; material quente ou produtos químicos devem ser lavados apenas com água utilizando o chuveiro de segurança (Figura 1), se necessário; </p> 
+                                                                <p>6.5	Nos casos de reagentes químicos em contato com os olhos, estes devem ser lavados com água em abundância no lava-olhos, por no mínimo 15 minutos;</p> 
+                                                                <p>6.6	Em caso de acidentes por ingestão de produtos químicos, procure o médico indicando a substância. </p>  
+                                                            </div>
+
+                                                            <div class="section-title">
+                                                                <h3><span>CAPÍTULO VIII</span></h3>
+                                                            </div>
+
+                                                            <div class="row justify-content-center">
+                                                                <p><strong>8-DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS </strong><br></p>
+                                                                <p>8.1	Os casos de descumprimento das regras dos laboratórios, bem como os atos que possam afetar a integridade do patrimônio ou de outros usuários, serão analisados pela Direção Geral e/ou Diretoria Adjunta Educacional em conjunto com as Coordenações de Curso ou Coordenadorias Educacionais, considerando as sanções previstas neste regulamento, no Regulamento Disciplinar Docente do IFSP ou em outros documentos institucionais pertinentes. </p> 
+                                                                <p>8.2 	Os casos não previstos neste regulamento serão resolvidos pelo Diretor Adjunto Educacional em conjunto com as Coordenações dos Cursos e Coordenadorias.</p>
+                                                    
+                                                            </div>
+                                                        </div>  
+                                                            
+                                                        
+
+                                                    </div>
+                                                    <!---->
+                                                </div>
+                                                
+                                                <!--Aba numero 2--> 
+                                                
+                                                
+                                                <div class="tab-pane fade" id="nav-comunidade" role="tabpanel" aria-labelledby="nav-comunidade-tab">
+                                                    
+                                                    <!---->                               
+                                                    <div class="container-fluid">
+                                                            
+                                                        <div class="section-title">
+                                                            <h3><span>CAPÍTULO I</span> </h3>
+                                                        </div>
+                                                        
+                                                        <div class="row justify-content-center">
+                                                            <p><strong>1.	DAS NORMAS GERAIS E DE ORGANIZAÇÃO </strong><br></p>
+                                                            <p>1.7	A supervisão do uso do Laboratório IFMaker, durante quaisquer outras atividades, que envolva comunidade externa, será de responsabilidade do Técnico de Laboratório, Professores, Bolsistas, Voluntários e dos Estagiários, estando estes presentes no momento e comprometidos em supervisionar  a atividade em questão.</p>
+                                                            <ul>
+                                                                <ul>
+                                                                    <ul>
+                                                                        <li>1º – O responsável comprometido, não deve deixar estudantes ou a comunidade externa sem a devida supervisão.</li>
+                                                                        <li>2º – Sempre que utilizar o laboratório, os estudantes e comunidade externa devem estar acompanhados.</li>
+                                                                        <li>3º – Os estudantes e comunidade externa somente poderão operar máquinas dos Laboratório IFMaker, com orientação e supervisão da assessoria do Técnico deste Laboratório.</li>
+                                                                    </ul>
+                                                                </ul>
+                                                            </ul>  
+                                                        </div>
+
+                                                        <div class="section-title">
+                                                            <h3><span>CAPÍTULO IV </span> </h3>
+                                                        </div>
+                                                        <div class="row justify-content-center">
+                                                        
+                                                            <p><strong>4. DO FUNCIONAMENTO E USO DO LABORATÓRIO</strong><br></p>
+                                                            <p>4.04	O agendado de uma visita ou a reserva de algum equipamento do Laboratório IFMaker, deve ser realizado com no mínimo 1 semana de antecedência, através do formulário do site, onde deverá ser informado no campo mensagem,  as seguintes informações: </p>
+                                                            <ul>
+                                                                <ul>
+                                                                    <ul>
+                                                                        <li>Caso seja pessoa física, informe os nomes dos todos os integrantes que farão a visita ou uso do equipamento;</li>
+                                                                        <li>Caso seja pessoa jurídica, ou representante de alguma instituição, como escola ou empresa, informe os nomes dos todos os integrantes que farão a visita e o nome da instituição que representa;</li>
+                                                                        <li>Em caso de visitas escolares, informe a instituição que representa, o  nome do professor responsável e a quantidade de membros que o acompanharam.</li>
+                                                                        <li>Data e horário de início e término da visita, sendo estes compatíveis com o período de funcionamento do laboratório;</li>
+                                                                        <li>Caso seja uma pessoa física, informe seu objetivo e os itens que serão utilizados (equipamentos, ferramentas, componentes eletrônicos, kits didáticos, entre outros) em sua atividade, com seus respectivos quantitativos; </li>
+                                                                        <li>comentários adicionais, quando for necessário. </li>
+                                                                    </ul>
+                                                                </ul>
+                                                            </ul>
+
+                                                        </div>
+                                                    </div>
+                                                    <!---->
+
+                                                </div>
+
+                                                <!------->
+
+                                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                    
+                                                    <!---->                               
+                                                    <div class="container-fluid">
+                                                        
+                                                        <div class="section-title">
+                                                            <h3><span>CAPÍTULO IV</span> </h3>
+                                                        </div>
+                                                        <div class="row justify-content-center">
+                                                        
+                                                        
+                                                            <p>4.04	O agendado de uma visita ou a reserva de algum equipamento do Laboratório IFMaker, deve ser realizado com no mínimo 1 semana de antecedência, através do formulário do site, onde deverá ser informado no campo mensagem,  as seguintes informações: </p>
+                                                            <ul>
+                                                                <ul>
+                                                                    <ul>
+                                                                        <li>nomes e prontuários de todos os integrantes que farão a visita ou uso do equipamento;</li>
+                                                                        <li>data e horário de início e término da visita, sendo estes compatíveis com o período de funcionamento do laboratório;</li>
+                                                                        <li>lista de itens que serão utilizados (equipamentos, ferramentas, componentes eletrônicos, kits didáticos, entre outros), com seus respectivos quantitativos; </li>
+                                                                        <li>comentários adicionais, quando for necessário. </li>
+                                                                    </ul>
+                                                                </ul>
+                                                            </ul>
+                                                            <p>4.09	É extremamente proibido para alunos matriculados neste campus, agendar uma visita no período de sua aula, com a exceção da autorização do professor responsável por aquele horário.</p>
+                                                            <p>4.12	O estudante somente poderá operar máquinas dos laboratórios com orientação e supervisão do professor ou assessoria do Técnico de Laboratório. </p>
+                                                            
+                                                        </div>
+                                                        </div>
+
+                                                </div>
+
+                                                <!--Aba numero 4-->  
+
+                                                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                                    
+                                                    <!---->                               
+                                                        <div class="container-fluid">
+                                                            
+                                                            <div class="section-title">
+                                                                <h3><span>CAPÍTULO I </span> </h3>
+                                                            </div>
+                                                            <div class="row justify-content-center">
+                                                                <p><strong>1.	DAS NORMAS GERAIS E DE ORGANIZAÇÃO </strong><br></p>
+                                                                <p>1.6	A supervisão do uso do Laboratório, durante as atividades práticas de aula ou projetos, caberá ao professor responsável pela aula e ao Técnico de Laboratório.</p>
+                                                                <ul>
+                                                                    <ul>
+                                                                        <ul>
+                                                                            <li>1º – O professor responsável pela atividade desenvolvida não deve deixar estudantes dos cursos sem a devida supervisão.</li>
+                                                                            <li>2º – Sempre que utilizar o laboratório, o estudante deve estar acompanhado do Técnico de Laboratório ou professor. </li>
+                                                                            <li>3º – O estudante somente poderá operar máquinas dos Laboratório IFMaker com orientação e supervisão do professor ou assessoria do Técnico de Laboratório. </li>
+                                                                            <li>4º – Em caso do uso dos  Laboratório IFMaker por alunos, que estão executando projetos sem supervisão de um professor, técnico e/ou outro servidor, a responsabilidade pelo laboratório e seus equipamentos será da coordenação e/ou professor que permitiu a utilização do mesmo. </li>
+                                                                        </ul>
+                                                                    </ul>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="section-title">
+                                                                <h3><span>CAPÍTULO II</span> </h3>
+                                                            </div>
+                                                            <div class="row justify-content-center">
+                                                                <p><strong>2.	DAS RESPONSABILIDADES </strong><br></p>
+                                                                <p>2.1 São responsabilidades: </p>
+                                                                <p>I – Do professor </p>
+                                                                <ul>
+                                                                    <ul>
+                                                                        <ul>
+                                                                            <li>a.  Planejar e executar aulas práticas;</li>
+                                                                            <li>b. Indicar ao Técnico de Laboratório, com 12 meses de antecedência, os insumos necessários para a realização das práticas no laboratório. </li>
+                                                                            <li>c. Supervisionar as atividades desenvolvidas pelos estudantes nos laboratórios;</li>
+                                                                            <li>d. Cumprir e fazer cumprir normas de segurança, regras e procedimentos estabelecidos neste regulamento; </li>
+                                                                            <li>e. Utilizar e exigir o uso dos Equipamentos de Proteção Individual (EPI) pelos usuários de acordo com normas vigentes; </li>
+                                                                            <li>f. Não permitir que estudantes realizem atividades práticas durante as aulas sem sua supervisão; </li>
+                                                                            <li>g. Relatar todas as condições de falta de segurança ao Técnico de Laboratório; </li>
+                                                                            <li>h. Zelar pela integridade dos equipamentos e materiais durante a realização das atividades de ensino, pesquisa ou extensão; </li>
+                                                                            <li>i. Orientar os estudantes sobre o destino de resíduos produzidos durante as aulas;</li>
+                                                                            <li>j. Comunicar sobre irregularidades, danos, acidentes ao Técnico do Laboratório ou chefia imediata;</li>
+                                                                            <li>k. Orientar os usuários sobre limpeza e organização do laboratório no final de cada atividade;</li>
+                                                                            <li>l. Retirar materiais de uso particular após o uso do laboratório; </li>
+                                                                            <li>m. Autorizar os discentes de seus respectivos cursos a utilização do laboratório em atividades extracurriculares de ensino, pesquisa e extensão; </li>
+                                                                            <li>n. Planejar a compra de materiais de consumo e capital. </li>
+                                                                        </ul>
+                                                                    </ul>
+                                                                </ul>
+                                                                <p>II – Do Técnico do Laboratório</p>
+                                                                <ul>
+                                                                    <ul>
+                                                                        <ul>
+                                                                            <li>a. Assessorar nas atividades de ensino, pesquisa, extensão e demais atividades dos alunos e  comunidade externa; </li>
+                                                                            <li>b. Auxiliar os professores na preparação de equipamentos e materiais do laboratório para suas atividades;</li>
+                                                                            <li>c. Auxiliar os alunos durante o uso de equipamentos e demais atividades;</li>
+                                                                            <li>d. Executar projetos, montar e instalar máquinas e equipamentos;</li>
+                                                                            <li>e. Planejar e realizar manutenção;</li>
+                                                                            <li>f. Assegurar que as normas de uso dos laboratórios estejam sendo cumpridas; </li>
+                                                                            <li>g. Zelar pela estrutura geral dos Laboratórios: equipamentos, materiais e instalações; </li>
+                                                                            <li>h. Fornecer e conferir os materiais e equipamentos utilizados nas aulas e demais atividades; </li>
+                                                                            <li>i. Comunicar sempre que estiver ausente para que outro técnico possa assumir suas funções; </li>
+                                                                            <li>j. Planejar e executar a compra de materiais de consumo e capital. </li>
+                                                                        </ul>
+                                                                    </ul>
+                                                                </ul>
+                                                                <p>III- Do Coordenador do laboratório</p>
+                                                                <ul>
+                                                                    <ul>
+                                                                        <ul>
+                                                                            <li>a. Coordenar modificações nos laboratórios, requisitar a compra de materiais de consumo e capital, coordenação técnica e organizacional. </li>
+                                                                        </ul>
+                                                                    </ul>
+                                                                </ul>
+                                                                <p>IV – Do Técnico do Laboratório</p>
+                                                                <ul>
+                                                                    <ul>
+                                                                        <ul>
+                                                                            <li>a. Seguir todas as regras e procedimentos de segurança apresentados neste manual e normas vigentes; </li>
+                                                                            <li>b. Utilizar os Equipamentos de Proteção Individual – EPI de acordo com as instruções;</li>
+                                                                            <li>c. Relatar ao Técnico de Laboratório qualquer condição de falta de segurança, bem como a ocorrência de qualquer acidente; </li>
+                                                                            <li>d. Relatar todas as necessidades para o bom funcionamento dos laboratórios aos Técnicos responsáveis; </li>
+                                                                            <li>e. Não realizar qualquer procedimento sem autorização e supervisão do professor ou técnico responsável;</li>
+                                                                            <li>f. Apresentar a autorização do professor da disciplina ou orientador do projeto ao gestor do laboratório para a realização de atividades fora dos horários preestabelecidos; </li>
+                                                                            <li>g. Responsabilizar-se pela limpeza, conservação e organização dos laboratórios durante seu uso, respeitando procedimentos e orientações específicas.</li>
+            
+                                                                        </ul>
+                                                                    </ul>
+                                                                </ul>
+                                                            </div>
+
+                                                            <div class="section-title">
+                                                                <h3><span>CAPÍTULO IV</span> </h3>
+                                                            </div>
+
+                                                            <div class="row justify-content-center">
+                                                            
+                                                                <p><strong>4. DO FUNCIONAMENTO E USO DO LABORATÓRIO</strong><br></p>
+                                                                <p>4.01	A chave do laboratório IFMaker ficará no claviculário existente na Coordenadoria de Apoio ao Ensino (CAE). </p>
+                                                                <p><strong>Parágrafo Único –</strong> Os docentes, estagiários e voluntários devem registrar os horários de retirada e devolução, conforme procedimentos definidos pelo setor responsável.</p>
+                                                                <p>4.02	As chaves dos armários deste laboratório devem ser retiradas com o Técnicos do Laboratório.</p>
+                                                                <p><strong>Parágrafo Único –</strong>  Em caso de ausência do Técnico do Laboratório, o docente, estagiário e e voluntários deverá retirar a chave dos armários na Coordenadoria de Apoio ao Ensino (CAE). </p>
+                                                                <p>4.04	O agendado de uma visita ou a reserva de algum equipamento do Laboratório IFMaker, deve ser realizado com no mínimo 1 semana de antecedência, através do formulário do site, onde deverá ser informado no campo mensagem,  as seguintes informações: </p>
+                                                                <ul>
+                                                                    <ul>
+                                                                        <ul>
+                                                                            <li>a. Nomes e prontuários de todos os integrantes que farão a visita ou uso do equipamento; </li>
+                                                                            <li>b. Data e horário de início e término da visita, sendo estes compatíveis com o período de funcionamento do laboratório;</li>
+                                                                            <li>c. Lista de itens que serão utilizados (equipamentos, ferramentas, componentes eletrônicos, kits didáticos, entre outros), com seus respectivos quantitativos; </li>
+                                                                            <li>d. Comentários adicionais, quando for necessário;</li>
+                                                                        </ul>
+                                                                    </ul>
+                                                                </ul>    
+                                                                    
+                                                            </div>
+
+                                                            <div class="section-title">
+                                                                <h3><span>CAPÍTULO VII</span> </h3>
+                                                            </div>
+
+                                                            <div class="row justify-content-center">
+                                                            
+                                                                <p>7.1	A instalação de programas neste laboratório só será executada pelo técnico responsável, do qual vai averiguar a característica da licença do software, seja essa individual, acadêmica ou gratuita, bem como, sua funcionalidade e funcionamento .</p>
+                                                                <p>7.2	A definição e instalação dos softwares a serem utilizados neste laboratório, é realizada mediante a necessidade de manutenção, adequação, atualização ou aquisição de um novo equipamento, assim garantindo o funcionamento pleno de todos os equipamentos e um atendimento de qualidade aos seus usuários.</p>
+                                                                <p>7.3	No decorrer do semestre o professor que solicitar a instalação de programas ou alteração nas configurações de qualquer computador deste laboratório, deverá enviar o pedido ao coordenador responsável,  especificando nome e versão do software, tipo de licença, fabricante, link para download (ou arquivo de instalação), observações sobre a instalação e configuração e local de instalação, se o coordenador estiver de acordo deve encaminhar o pedido à CTI que terá 15 dias, após o recebimento da solicitação do coordenador, para realizar as instalações, este prazo pode variar de acordo com a disponibilidade dos laboratórios.</p>
+                                                                <p>7.4	Os softwares solicitados serão avaliados pela CTI e poderão não ser instalados caso não cumpram os requisitos de licença, hardware ou infraestrutura de rede dos laboratórios ou comprometam a segurança e privacidade da rede de computadores, bem como de seus usuários. </p>
+                                                                <p>7.5	Os softwares serão instalados apenas em equipamentos da instituição. A CTI não realizará a instalação em notebooks, tablets, smartphones ou qualquer outro equipamento pessoal de professores, alunos ou técnicos administrativos.</p>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    <!---->
+
+                                                </div>
+                                                
+                                                <!--Aba numero 4-->  
+
+                                                <!--<div class="tab-pane fade" id="nav-download" role="tabpanel" aria-labelledby="nav-download-tab"
+                                                    
+                                                                                    
+                                                        <div class="container-fluid">
+                                                            <div class="section-title">
+                                                                <h3>Documento com regras destinadas aos <span>servidores:</span></h3>
+                                                            </div>
+                                                            
+                                                            <div>
+                                                                <a href="assets/manual/Due-NXT-Manual-de-Usuario-compressed-1.pdf">
+                                                                    <div class="d-grid gap-2">
+                                                                    <button class="btn btn-primary" type="button" style="background: green;border-color: green;">Regras alunos</button>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+
+                                                        
+                                                            
+                                                        
+                                                            <br>
+
+                                                        </div>
+                                                    
+
+                                                </div>-->
+
+                                            </div>
+                                        </div>                                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                            
+                </div>
+                
+        </section>
