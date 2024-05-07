@@ -70,7 +70,7 @@ if(!empty($email) && !empty($mensagem)){
 
             $mail->addAddress('kleyton.moura@ifsp.edu.br', utf8_decode('Comissão organizadora da  BRAGANTEC'));
        
-            $mail->addReplyTo($email,'Usuário do site BRAGANTEC');
+            $mail->addReplyTo($email,utf8_decode('Usuário do site BRAGANTEC'));
           
   
 

@@ -652,13 +652,15 @@ svg.bi.bi-search {
       font-size: 28px;
       font-weight: 700;
       padding-bottom: 5px;
+      flex: 0 0 auto;
+    width: 83.33333333%;
 }
 .participe .seção-titulo h1 {
   /*color:rgb(255 0 18);*/
   color: white;
 }
 
-.participe .seção-titulo h3 {
+.participe .seção-titulo h2 {
   /*color:rgb(255 0 18);*/
   color: white;
   
@@ -987,7 +989,168 @@ padding: 10px 0;
 /***/
 
 
+/*feiras aliadas*/
 
+
+
+
+.fei_ali{
+
+  background: url('../img/fei_vi/fundo-bra.svg') , #ec441c;
+  background-size: 100% auto;
+  padding-bottom: 35px;
+ 
+}
+
+.fei_ali .seção-titulo{
+      background-color: #ec441c;;
+      font-size: 28px;
+      font-weight: 700;
+      padding-top: 35px;
+      padding-bottom: 5px;
+      flex: 0 0 auto;
+    width: 83.33333333%;
+}
+.fei_ali .seção-titulo h1 {
+  /*color:rgb(255 0 18);*/
+  color: white;
+}
+
+.fei_ali .seção-titulo h2 {
+  /*color:rgb(255 0 18);*/
+  color: white;
+  
+}
+.fei_ali .seção-titulo strong{
+font-style: italic;
+text-decoration: underline;
+}
+.fei_ali .seção-titulo p{
+  
+  font-size: 17px;
+  
+}
+
+.fei_ali .fei_box{
+  padding-top: 30px;
+}
+
+.fei_ali .fei_box .ali_box{
+padding: 60px 40px;
+box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+background: #fff;
+width: 100%;
+height: auto;
+border-top: 4px solid #fff;
+border-radius: 5px;
+}
+
+.fei_ali .fei_box .ali_box h3 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 28px;
+  text-align: center;
+  color: #01a3b8;
+}
+
+.fei_ali .fei_box .ali_box p {
+  padding: 10px 0;
+  text-align: justify;
+  color: black;
+  line-height: 20px;
+
+}
+
+.fei_ali .fei_box .margen{
+  margin-bottom: 30px;
+}
+.fei_ali .fei_box .ali_box .org_bt{
+  display: flex;
+  justify-content: center;
+}
+
+.fei_ali .fei_box .ali_box .posi_bt {
+  margin: 0px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.fei_ali .fei_box .ali_box .card-btn {
+
+ 
+
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 15px;
+
+  color: #01a3b8;
+
+  background: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  transition: 0.3s;
+
+  border: 1px solid #01a3b8;
+
+ 
+}
+.fei_ali .fei_box .ali_box .card-btn strong{
+  transition: 0.3s;
+
+  color: #01a3b8;
+
+}
+.fei_ali .fei_box .ali_box .part_text .posi_bt .card-btn{
+  margin-bottom: 1rem;
+}
+.fei_ali .fei_box .ali_box .card-btn:hover{
+  background-color: #01a3b8;
+  color: #fff;
+}
+.fei_ali .fei_box .ali_box .card-btn:hover .card_btn_text{
+  transition: 0.3s;
+  color: #fff;
+}
+
+
+@media (max-width: 992px) {
+  .fei_ali .fei_box .ali_box{
+    max-width: 85%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .fei_ali .fei_box .ali_box{
+    max-width: 90%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 649.95px) {
+  .fei_ali .fei_box .ali_box{
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+  }
+  .fei_ali .fei_box .ali_box .org_bt{
+    display: block;
+    justify-content: center;
+  }
+  .fei_ali .fei_box .ali_box .posi_bt {
+    margin: 35px 0px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
+
+
+/**/
 
 
 /*apoie*/
