@@ -1,7 +1,6 @@
 
-
 window.onscroll = () =>{
-    let top = window.scrollY+200;
+    let top = window.scrollY+120;
     const sec='#navbar .scrollto';
     let sections = document.querySelectorAll(sec.trim());
     sections.forEach(sec =>{
@@ -53,6 +52,34 @@ import { Swiper } from "../swiper/swiper-bundle.min.js";
 
     
 (function(){
+ 
+ 
+  var nav_sec = document.getElementsByClassName("scrollto");   
+  var antes = "";
+  for (var i = 0; i < nav_sec.length; i++) {
+  
+      nav_sec[i].onclick = function(e) {
+  
+        if(antes!=this.hash){
+          e.preventDefault();
+          let header = document.querySelector("header");
+          let offset = header.offsetHeight;
+          let elementPos = document.querySelector(this.hash).offsetTop;
+          window.scrollTo({
+             
+              top: elementPos-offset,
+              behavior: 'smooth'
+          })
+
+        }
+        antes=this.hash;
+  
+          
+  
+      }
+  
+  }
+ 
 
   function calula_tela(x1,x2,x3) {
     if (x1.matches) { 

@@ -12,7 +12,7 @@ use PHPMailer\PHPMailer\Exception;
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $assunto = $_POST['assunto'];
-$mensagem = $_POST['menssage'];
+$mensagem = utf8_decode($_POST['menssage']);
 $data_envio = date('d/m/Y');
 $hora_envio = date('H:i');
 
@@ -68,7 +68,7 @@ if(!empty($email) && !empty($mensagem)){
 
             $mail->setFrom('bragantec.site@gmail.com', 'Site BRAGANTEC');          // aqui devemos colocar email de origem!!!! ou o email cadastrado acima ou outro email de grupo
 
-            $mail->addAddress('kleyton.moura@ifsp.edu.br', utf8_decode('Comissão organizadora da  BRAGANTEC'));
+            $mail->addAddress('bragantec@ifsp.edu.br', utf8_decode('Comissão organizadora da  BRAGANTEC'));
        
             $mail->addReplyTo($email,utf8_decode('Usuário do site BRAGANTEC'));
           

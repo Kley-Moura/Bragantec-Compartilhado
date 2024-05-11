@@ -1,1033 +1,1070 @@
 <!DOCTYPE html>
 <html lang="pt-br" data-bs-theme="auto">
 
-<head>
-    <!--Autor:Kleyton Moura-->
+    <head>
+        <!--Autor:Kleyton Moura-->
 
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bragantec</title>
-    <link href="assets/bootstrap-5.3.3/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/swiper/swiper-bundle.min.css" rel="stylesheet">
-    
-    <link rel="icon" type="image/png" href="assets/img/icon/icon.png">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bragantec</title>
+        <link href="assets/bootstrap-5.3.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/swiper/swiper-bundle.min.css" rel="stylesheet">
+        
+        <link rel="icon" type="image/png" href="assets/img/icon/icon.png">
 
 
-    <link href="assets/css/style.css" rel="stylesheet">
-    
-</head>
+        <link href="assets/css/style.css" rel="stylesheet">
+        
+    </head>
 
-<body>
-    <header id="header" class="fixed-top cor-header">
-        <div class="container d-flex align-items-center justify-content-between">
+    <body>
+        <header id="header" class="fixed-top cor-header">
+            <div class="container d-flex align-items-center justify-content-between">
 
-            <div class="logo">
-                <a id="logo_home" href="index.html">
-                    <img  alt="Bragantec" aria-label="Logo site" src="assets/img/logo/Bragantec_neutro.svg">
-                </a>
+                <div class="logo">
+                    <a id="logo_home" href="index.html">
+                        <img  alt="Bragantec" aria-label="Logo site" src="assets/img/logo/Bragantec_neutro.svg">
+                    </a>
+                </div>
+
+                <nav id="navbar" class="navbar navbar-expand-lg sticky-top">
+                    <div class="container-nav">
+                        <button class="navbar-toggler custom-botão" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
+
+                            <span class="navbar-custom-bt-icon">
+                            </span>
+
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                            <div class="offcanvas-header">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img alt="Bragantec" aria-label="Logo site" src="assets/img/logo/Bragantec_neutro.svg">
+                                    </a>
+                                </div>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul id="seção_nav" class="navbar-nav flex-grow-1 justify-content-between">
+                                    <li  class="nav-item"><a id="scrollto1" class="nav-link-custom scrollto active" href="#home">Home</a></li>
+                                    <li  class="nav-item"><a id="scrollto2" class="nav-link-custom scrollto" href="#sobre">Sobre</a></li>
+                                    <!--
+                                        <li class="nav-item"><a id="scrollto3" class="nav-link-custom scrollto" href="#fe_vi">Edição Atual</a></li>
+                                    -->
+                                    
+                                    <li  class="nav-item"><a id="scrollto4" class="nav-link-custom scrollto" href="#participe">Participe</a></li>
+                                    <li  class="nav-item"><a id="scrollto5" class="nav-link-custom scrollto" href="#fei_ali">Feiras afiliadas</a></li>
+                                    <li  class="nav-item"><a id="scrollto6" class="nav-link-custom scrollto" href="#apoie">Apoie</a></li>
+                                    <li  class="nav-item"><a id="scrollto7" class="nav-link-custom scrollto" href="#edi-ant">Edições Anteriores</a></li>
+                                    <li  class="nav-item"><a id="scrollto8" class="nav-link-custom scrollto" href="#contato">Contato</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
 
-            <nav id="navbar" class="navbar navbar-expand-lg sticky-top">
-                <div class="container-nav">
-                    <button class="navbar-toggler custom-botão" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
-
-                        <span class="navbar-custom-bt-icon">
-                        </span>
-
-                    </button>
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
-                        <div class="offcanvas-header">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img alt="Bragantec" aria-label="Logo site" src="assets/img/logo/Bragantec_neutro.svg">
-                                </a>
-                            </div>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav flex-grow-1 justify-content-between">
-                                <li class="nav-item"><a class="nav-link-custom scrollto active" href="#home">Home</a></li>
-                                <li class="nav-item"><a class="nav-link-custom scrollto" href="#sobre">Sobre</a></li>
-                                <!--
-                                    <li class="nav-item"><a class="nav-link-custom scrollto" href="#fe_vi">Edição Atual</a></li>
-                                -->
-                                
-                                <li class="nav-item"><a class="nav-link-custom scrollto" href="#participe">Participe</a></li>
-                                <li class="nav-item"><a class="nav-link-custom scrollto" href="#fei_ali">Feiras afiliadas</a></li>
-                                <li class="nav-item"><a class="nav-link-custom scrollto" href="#apoie">Apoie</a></li>
-                                <li class="nav-item"><a class="nav-link-custom scrollto" href="#edi-ant">Edições Anteriores</a></li>
-                                <li class="nav-item"><a class="nav-link-custom scrollto" href="#contato">Contato</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-
-    </header>
+        </header>
 
 
-    <main>
-        <section id="home" class="banner">
-            <div id="carousel_home" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        
-                        <img src="assets/img/banner/site-Bragantec2024_desktop.jpg" class="card-img-top" alt="...">
-                        <div class="container">
-                            <div class="carousel-caption" style="color: black;"> 
-                                <h1>A 14ª BRAGANTEC será nos dias
-                                    17, 18 e 19 de outubro</h1>
-                                
-                                <!--<p><a class="btn btn-lg btn-primary" href="#">CONFIRA AS DATAS IMPORTANTES</a></p>-->
-                            </div>
-                        </div> 
-
-                    </div>
-                    <!--
-                    <div class="carousel-item">
-                        <div class="card mb-3"
-                            style="background-color: #fff0;border: 1px solid rgb(0 0 0 / 0%); margin-bottom: 0px;">
-                            <img src="assets/img/banner/banner1_out2022.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title" style="color: white;">Bem-vindo ao site do LABIFMAKER.</h3>
-                            </div>
-                        </div>
-                    </div>
-                    -->
-                </div>
-               <!-- 
-                <div class="carousel-indicators" style="position: inherit;">
-                    <button type="button" data-bs-target="#carousel_home" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carousel_home" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                </div
-                >-->
-            </div>
-
-        </section>
-
-        <section class="sobre">
-            <div id="sobre" class="container-fluid">
-                
-      
-      
-              <div class="row justify-content-center">
-                <div class="seção-titulo">
-                    <h1> Bem-vindo à <span>14ª BRAGANTEC</span></h1>
-                    
-                </div>
-                
-      
-                <div class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-                    
-                    <p><strong>A <span>BRAGANTEC</span>, é uma Feira de Ciência e Tecnologia da região bragantina, organizada anualmente pelo Instituto Federal de São Paulo – Câmpus Bragança Paulista. Nela, são recebidos projetos de alunos do ensino fundamental (8º e 9º anos), ensino médio e técnico, que abragem as áreas de Ciências da Natureza e Exatas, Ciências Humanas e Linguagens, Engenharias e Informática.</strong></p>
-                    <p><strong>A <span>BRAGANTEC</span> tem os seguintes objetivos:</strong></p>
-                
-
-        
-                    <div class="icon-box">
-                        <div class="icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
-                                <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
-                            </svg>
-                        </div>
-                        <h4 class="title"><a><strong>Incentivar a criatividade e a inovação dos estudantes.</strong></a></h4>
-                        <p class="description"><strong>Estimular a criatividade dos estudantes é crucial para prepará-los para os desafios do mundo e impulsionar o progresso da sociedade. ⚗️⚗️</strong></p>
-                    </div>
-        
-                    <div class="icon-box">
-                        <div class="icon">
-                            <img src="assets/img/body/14Bragatec_cien.svg" style="width: 30px;" alt="">
-                        </div>
-                        <h4 class="title"><a><strong>Despertar vocações científicas e/ou tecnológicas</strong></a></h4>
-                        <p class="description"><strong>Novas descobertas são essenciais para inspirar o futuro da ciência e da inovação. 🔭🔭</strong></p>
-                    </div>
-        
-                    <div class="icon-box">
-        
-                        <div class="icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                            </svg>
-                        </div>
-                        <h4 class="title"><a><strong>Identificar jovens talentosos que possam ser estimulados a seguirem carreiras científico-tecnológicas.</strong></a></h4>
-                        <p class="description"><strong>Aqui você vai ter a oportunidade de criar, inovar e se descobrir.</strong></p>
-                    </div>
-                    
-                
-           
-        
-                </div>
-
-                <div class="col-xl-5 col-lg-6 apresenta-sobre d-flex justify-content-center align-items-stretch position-relative">
-                    <div id='banner2' class="carousel slide banner-sobre" data-bs-ride="carousel">
-                        <div  class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="3000">
-                                <div class="card mb-3"
-                                    style="background-color: #fff0;border: 1px solid rgb(0 0 0 / 0%); margin-bottom: 0px;">
-                                    <img src="assets/img/body/14Bragatec_card1.jpg" class="card-img-top" alt="...">
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="3000">
-                                <div class="card mb-3"
-                                    style="background-color: #fff0;border: 1px solid rgb(0 0 0 / 0%); margin-bottom: 0px;">
-                                    <img src="assets/img/body/14Bragatec_card2.jpg" class="card-img-top" alt="...">
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="3000">
-                                <div class="card mb-3"
-                                    style="background-color: #fff0;border: 1px solid rgb(0 0 0 / 0%); margin-bottom: 0px;">
-                                    <img src="assets/img/body/14Bragatec_card3.jpg" class="card-img-top" alt="...">
-                                </div>
-                            </div>
+        <main>
+            <section id="home" class="banner">
+                <div id="carousel_home" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
                             
-                        </div>    
-                        <div class="carousel-indicators" style="position: inherit;">
-                            <button type="button" data-bs-target="#banner2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#banner2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#banner2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <img src="assets/img/banner/site-Bragantec2024_desktop.jpg" class="card-img-top" alt="...">
+                            <div class="container">
+                                <div class="carousel-caption" style="color: black;"> 
+                                    <h1>A 14ª BRAGANTEC será nos dias
+                                        17, 18 e 19 de outubro</h1>
+                                    
+                                    <!--<p><a class="btn btn-lg btn-primary" href="#">CONFIRA AS DATAS IMPORTANTES</a></p>-->
+                                </div>
+                            </div> 
+
+                        </div>
+                        <!--
+                        <div class="carousel-item">
+                            <div class="card mb-3"
+                                style="background-color: #fff0;border: 1px solid rgb(0 0 0 / 0%); margin-bottom: 0px;">
+                                <img src="assets/img/banner/banner1_out2022.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h3 class="card-title" style="color: white;">Bem-vindo ao site do LABIFMAKER.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                <!-- 
+                    <div class="carousel-indicators" style="position: inherit;">
+                        <button type="button" data-bs-target="#carousel_home" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel_home" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div
+                    >-->
+                </div>
+
+            </section>
+
+            <section id="sobre" class="sobre">
+                <div class="container-fluid">
+                    
+        
+        
+                <div class="row justify-content-center">
+
+                    <div class="seção-titulo">
+                        <div class="texto">
+                            <h1> Bem-vindo à <span>14ª BRAGANTEC</span></h1>
+
+                        </div>
+                        
+                        
+                    </div>
+                    
+        
+                    <div class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+                        
+                        <p><strong>A <span>BRAGANTEC</span>, é uma Feira de Ciência e Tecnologia da região bragantina, organizada anualmente pelo Instituto Federal de São Paulo – Câmpus Bragança Paulista. Nela, são recebidos projetos de alunos do ensino fundamental (8º e 9º anos), ensino médio e técnico, que abragem as áreas de Ciências da Natureza e Exatas, Ciências Humanas e Linguagens, Engenharias e Informática.</strong></p>
+                        <p><strong>A <span>BRAGANTEC</span> tem os seguintes objetivos:</strong></p>
+                    
+
+            
+                        <div class="icon-box">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+                                    <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
+                                </svg>
+                            </div>
+                            <h4 class="title"><a><strong>Incentivar a criatividade e a inovação dos estudantes.</strong></a></h4>
+                            <p class="description"><strong>Estimular a criatividade dos estudantes é crucial para prepará-los para os desafios do mundo e impulsionar o progresso da sociedade. ⚗️⚗️</strong></p>
+                        </div>
+            
+                        <div class="icon-box">
+                            <div class="icon">
+                                <img src="assets/img/body/14Bragatec_cien.svg" style="width: 30px;" alt="">
+                            </div>
+                            <h4 class="title"><a><strong>Despertar vocações científicas e/ou tecnológicas</strong></a></h4>
+                            <p class="description"><strong>Novas descobertas são essenciais para inspirar o futuro da ciência e da inovação. 🔭🔭</strong></p>
+                        </div>
+            
+                        <div class="icon-box">
+            
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                </svg>
+                            </div>
+                            <h4 class="title"><a><strong>Identificar jovens talentosos que possam ser estimulados a seguirem carreiras científico-tecnológicas.</strong></a></h4>
+                            <p class="description"><strong>Aqui você vai ter a oportunidade de criar, inovar e se descobrir.</strong></p>
+                        </div>
+                        
+                    
+            
+            
+                    </div>
+
+                    <div class="col-xl-5 col-lg-6 apresenta-sobre d-flex justify-content-center align-items-stretch position-relative">
+                        <div id='banner2' class="carousel slide banner-sobre" data-bs-ride="carousel">
+                            <div  class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="3000">
+                                    <div class="card mb-3"
+                                        style="background-color: #fff0;border: 1px solid rgb(0 0 0 / 0%); margin-bottom: 0px;">
+                                        <img src="assets/img/body/14Bragatec_card1.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <div class="card mb-3"
+                                        style="background-color: #fff0;border: 1px solid rgb(0 0 0 / 0%); margin-bottom: 0px;">
+                                        <img src="assets/img/body/14Bragatec_card2.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <div class="card mb-3"
+                                        style="background-color: #fff0;border: 1px solid rgb(0 0 0 / 0%); margin-bottom: 0px;">
+                                        <img src="assets/img/body/14Bragatec_card3.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <div class="card mb-3"
+                                        style="background-color: #fff0;border: 1px solid rgb(0 0 0 / 0%); margin-bottom: 0px;">
+                                        <img src="assets/img/body/14Bragatec_card4.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <div class="card mb-3"
+                                        style="background-color: #fff0;border: 1px solid rgb(0 0 0 / 0%); margin-bottom: 0px;">
+                                        <img src="assets/img/body/14Bragatec_card5.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                </div>
+                                
+                            </div>    
+                            <div class="carousel-indicators" style="position: inherit;">
+                                <button type="button" data-bs-target="#banner2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#banner2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#banner2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#banner2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#banner2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            </div>
                         </div>
                     </div>
+        
+        
                 </div>
-      
-      
-            </div>
-              
-      
-           
-        </section>
+                
+        
+            
+            </section>
 
-        <!--
-        <section id="fe_vi" class="fei_vi">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="seção-titulo">
-                        <h1>Feira Virtual 14ª BRAGANTEC</h1 >
-                        <h3>Confira abaixo as áreas temáticas do evento, e os projetos participantes!</h3>
-                    </div>
-                    <div class="col-xl-10">
-                        <div class=" d-flex flex-column align-items-stretch justify-content-center">         
-                            ------------------------------------------------------------------------------------------------
-                                    <a href="eng.html">
-                                        <div class="card">
-                                            <div class="row g-0">
-                                            
-                                            
-                                                <div>
-                                                    <div class="card-body">
-                                                        <h1 class="card-title" style="text-align: center;">Em Breve</h1>
-                                                        
+            <!--
+            <section id="fe_vi" class="fei_vi">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="seção-titulo">
+                            <h1>Feira Virtual 14ª BRAGANTEC</h1 >
+                            <h3>Confira abaixo as áreas temáticas do evento, e os projetos participantes!</h3>
+                        </div>
+                        <div class="col-xl-10">
+                            <div class=" d-flex flex-column align-items-stretch justify-content-center">         
+                                ------------------------------------------------------------------------------------------------
+                                        <a href="eng.html">
+                                            <div class="card">
+                                                <div class="row g-0">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="card-body">
+                                                            <h1 class="card-title" style="text-align: center;">Em Breve</h1>
+                                                            
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </a>   
-                            ------------------------------------------------------------------------------------------------
-                            <div class="card">
-                                <div class="row g-0">
-                                
-                                
-                                    <div>
-                                        <div class="card-body">
-                                            <h1 class="card-title" style="text-align: center;">Em Breve</h1>
-                                            
+                                        </a>   
+                                ------------------------------------------------------------------------------------------------
+                                <div class="card">
+                                    <div class="row g-0">
+                                    
+                                    
+                                        <div>
+                                            <div class="card-body">
+                                                <h1 class="card-title" style="text-align: center;">Em Breve</h1>
+                                                
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
-                            
+
                         </div>
-
+                        <br>    
                     </div>
-                    <br>    
                 </div>
-            </div>
-        </section>
-        -->
+            </section>
+            -->
 
-        <section id="participe" class="participe">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                   
+            <section id="participe" class="participe">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                    
 
-                            <div class="seção-titulo">
-                                <h1>Como participar</h1>
-                                <h2>Conheça o regulamento da BRAGANTEC, os modelos de documentos, as datas importantes e realize sua inscrição para participar da nossa feira.</h2>
-                                
-                            </div>  
-    
-                            <div class="col-xl-10">
-                            <div class="par_apresenta_box">
-                                <div class="row">
-                                
-                                    <div class="col-lg-4 margen">
-                                        <div class="parcitipe_box">
-                                            <h3>Datas importantes</h3>
-                                            <p>Caros participantes, fiquem atentos às datas importantes de submissão, envio de documentos, reultados e apresentação de nossa feira.</p>
-                                            <ul class="part_text">
-                                                <li>
-                                                    <i>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
-                                                            <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
-                                                            <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
-                                                            </svg>
-                                                        <strong style="color: black;">Submissão de projetos:  02/05 a 23/06</strong> 
-                                                    </i>
-                                                    <!-- <p>Junte seu grupo e comece seu projeto a partir de um problema ou uma pergunta.<strong> Caso queira saber mais detalhes, clique no botão "Material auxiliar", para acessar o material que preparamos para te auxiliar nessa jornada.</strong></p>
-                                                    -->
-                                                    
-                                                    
-                                                </li>
-                                                <li>
-                                                    <i>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
-                                                            <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
-                                                            <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
-                                                            </svg>
-                                                            <strong style="color: black;">Resultado das inscrições: 09/08/2024</strong>
-                                                    
-                                                    </i>
-                                                    
-                                                    
-                                                </li>
-                                                <li>
-                                                    <i>
-                                                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
-                                                            <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
-                                                            <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
-                                                            </svg>
-                                                            <strong style="color: black;">Envio da documentação: 04/10/2024</strong>
+                                <div class="seção-titulo">
+                                    <div class="texto">
+                                        <h1>Como participar</h1>
+                                        <h2>Conheça o regulamento da BRAGANTEC, os modelos de documentos, as datas importantes e realize sua inscrição para participar da nossa feira.</h2>
+                                    
+
+                                    </div>
+                                    
+                                </div>  
+        
+                                <div class="col-xl-10">
+                                <div class="par_apresenta_box">
+                                    <div class="row">
+                                    
+                                        <div class="col-lg-4 margen">
+                                            <div class="parcitipe_box">
+                                                <h3>Datas importantes</h3>
+                                                <p>Caros participantes, fiquem atentos às datas importantes de submissão, envio de documentos, reultados e apresentação de nossa feira.</p>
+                                                <ul class="part_text">
+                                                    <li>
+                                                        <i>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                                                                <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+                                                                <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                                                                </svg>
+                                                            <strong style="color: black;">Submissão de projetos:  02/05 a 23/06</strong> 
+                                                        </i>
+                                                        <!-- <p>Junte seu grupo e comece seu projeto a partir de um problema ou uma pergunta.<strong> Caso queira saber mais detalhes, clique no botão "Material auxiliar", para acessar o material que preparamos para te auxiliar nessa jornada.</strong></p>
+                                                        -->
                                                         
-                                                    </i>
+                                                        
+                                                    </li>
+                                                    <li>
+                                                        <i>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                                                                <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+                                                                <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                                                                </svg>
+                                                                <strong style="color: black;">Resultado das inscrições: 09/08/2024</strong>
+                                                        
+                                                        </i>
+                                                        
+                                                        
+                                                    </li>
+                                                    <li>
+                                                        <i>
+                                                            <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                                                                <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+                                                                <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                                                                </svg>
+                                                                <strong style="color: black;">Envio da documentação: 04/10/2024</strong>
+                                                            
+                                                        </i>
+                                                        
+                                                        
+                                                    </li>
+                                                    <li>
+                                                        <i>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                                                                <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+                                                                <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                                                                </svg>
+                                                                <strong style="color: black;">Apresentação/Avaliação: 17, 18 e 19/10/2024</strong>
+                                                        
+                                                        </i>
+                                                        
+                                                    </li>
                                                     
-                                                    
-                                                </li>
-                                                <li>
-                                                    <i>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
-                                                            <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
-                                                            <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
-                                                            </svg>
-                                                            <strong style="color: black;">Apresentação/Avaliação: 17, 18 e 19/10/2024</strong>
-                                                    
-                                                    </i>
-                                                    
-                                                </li>
-                                                
-                                            
-                                        </div>
-                                        <div class="popup1" id="popup-1">
-                                            <div class="overlay" aria-hidden="true" tabindex="-1">
                                                 
                                             </div>
-                                            <div class="card">
-                                                <div class="card-title"> 
-                                                    <div class="seção titulo"><h2 style="text-align: center;">Como preparar seu projeto</h2></div>
-                                                    <!--<div class="fecha-bt">&times;</div>-->
+                                            <div class="popup1" id="popup-1">
+                                                <div class="overlay" aria-hidden="true" tabindex="-1">
                                                     
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-title"> 
+                                                        <div class="seção titulo"><h2 style="text-align: center;">Como preparar seu projeto</h2></div>
+                                                        <!--<div class="fecha-bt">&times;</div>-->
+                                                        
+                                                    </div>
+                                                    
+                                                    <div class="card-body">
+                                                        
+                                                        
+                                                                
+                                                            
+                                                                    <p><strong>Como se tornar um jovem cientista? Ajudamos você, a partir de um problema ou pergunta, a elaborar e desenvolver um projeto de pesquisa, desde a definição do grupo até a apresentação na feira. A equipe da Bragantec preparou um material para auxiliar os estudantes nesta jornada, etapa por etapa. Junte seu grupo e <a class="normal-link" href="/prepare-se/">vem com a gente!</a></strong></p>
+                                                                
+                                                            
+                                                                                
+                                                    </div>
+                                                    <div class="posi_bt">
+                                                        <button class="card-btn fecha-bt" id="EX_passo1">Fechar</button>
+                                                    </div>
                                                 </div>
                                                 
-                                                <div class="card-body">
+                                            </div>
+                                            
+                                        </div>
+
+                                        <div class="col-lg-4 margen">
+                                            <div class="parcitipe_box">
+                                                <h3>Inscreva seu projeto</h3>
+                                                <p>Para fazer a inscrição de um trabalho, você vai precisar seguir os passos abaixo:
+                                                    :</p>
+                                                
+                                                <ul class="part_text">
+                                                    <li>
+                                                        <p>
+                                                            <i>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-1-circle-fill" viewBox="0 0 16 16">
+                                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z"/>
+                                                                </svg>    
+                                                            </i>
+                                                            <strong>Em primeiro lugar, todos os membros do grupo devem fazer o cadastro individualmente no sistema de submissão, inclusive orientador e coorientador. Serão solicitados dados como nome, e-mail, CPF, escola etc.</strong>
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <p>
+                                                            <i>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-2-circle-fill" viewBox="0 0 16 16">
+                                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428 1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z"/>
+                                                                    </svg>
+                                                                    
+                                                            </i>
+                                                            <strong>Após todos realizarem o cadastro no sistema, um dos estudantes do grupo deve fazer a submissão do projeto. Para isso é necessário enviar o Plano de Pesquisa em PDF, conforme modelo ao lado, Resumo com no máximo 300 caracteres, 3 palavras-chave e e-mail dos participantes. </strong>
+
+                                                        </p>
+                                                        
+                                                    </li>
+                                                    <li>
+                                                        <p>
+                                                            <i>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-3-circle-fill" viewBox="0 0 16 16">
+                                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.082.414c.92 0 1.535.54 1.541 1.318.012.791-.615 1.36-1.588 1.354-.861-.006-1.482-.469-1.54-1.066H5.104c.047 1.177 1.05 2.144 2.754 2.144 1.653 0 2.954-.937 2.93-2.396-.023-1.278-1.031-1.846-1.734-1.916v-.07c.597-.1 1.505-.739 1.482-1.876-.03-1.177-1.043-2.074-2.637-2.062-1.675.006-2.59.984-2.625 2.12h1.248c.036-.556.557-1.054 1.348-1.054.785 0 1.348.486 1.348 1.195.006.715-.563 1.237-1.342 1.237h-.838v1.072h.879Z"/>
+                                                                    </svg>
+                                                            </i>
+                                                            <strong style="text-align: left;">Pronto, agora é só aguardar o resultado da seleção.</strong>
+
+                                                        </p>
+                                                        
+                                                        
+                                                        
+                                                    </li>
                                                     
-                                                    
+                                                </ul>
+                                                <div class="posi_bt">
+                                                    <button type="button" class="card-btn open-overlay" onclick="location.href='http://rafaelmuniz.com.br/sisbragantec/'" type="button"><strong class="card_btn_text">Inscreva-se</strong></button>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 margen">
+                                            <div class="parcitipe_box">
+                                                <h3>Documentos</h3>
+                                                <p>Conheça o regulamento da BRAGANTEC e os modelos de documentos importantes para sua participação na feira.</p>
+                                                <div class="modelo_txt">
+                                                    <ul class="part_text">
+                                                        <li>
+                                                            <i>
+                                                                <a href="https://drive.google.com/file/d/1Uznc4U5GIvFGiidQM5dZXHPSap0BeWph/view">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-file-earmark-font" viewBox="0 0 16 16">
+                                                                        <path d="M10.943 6H5.057L5 8h.5c.18-1.096.356-1.192 1.694-1.235l.293-.01v5.09c0 .47-.1.582-.898.655v.5H9.41v-.5c-.803-.073-.903-.184-.903-.654V6.755l.298.01c1.338.043 1.514.14 1.694 1.235h.5l-.057-2z"/>
+                                                                        <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+                                                                    </svg>
+                                                                    
+                                                                        
+                                                                    <strong>
+                                                                        Regulamento 14ª BRAGANTEC
+                                                                    </strong> 
+                                                                </a>
+                                                            </i>
+                                                        
+                                                        </li>
+                                                        <li>
+                                                            <i>
+                                                                <a href="https://docs.google.com/document/d/1rPyRiaAtCPLSFkL5a1Rg0sx0s4nggU8K/edit?usp=sharing&ouid=116362706271690594302&rtpof=true&sd=true">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-file-earmark-font" viewBox="0 0 16 16">
+                                                                        <path d="M10.943 6H5.057L5 8h.5c.18-1.096.356-1.192 1.694-1.235l.293-.01v5.09c0 .47-.1.582-.898.655v.5H9.41v-.5c-.803-.073-.903-.184-.903-.654V6.755l.298.01c1.338.043 1.514.14 1.694 1.235h.5l-.057-2z"/>
+                                                                        <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+                                                                    </svg>
+                                                                    
+                                                                        
+                                                                    <strong>
+                                                                        Plano de pesquisa (modelo em word)
+                                                                    </strong> 
+                                                                </a>
+                                                            </i>
+                                                        
+                                                        </li>
+                                                        <li>
+                                                            <i>
+                                                                <a href="https://docs.google.com/document/d/1nZqsjdfuRFIncWzo82gS3CxgZP1PB61zHy9xMnH2Jls/edit?usp=sharing">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-file-earmark-font" viewBox="0 0 16 16">
+                                                                        <path d="M10.943 6H5.057L5 8h.5c.18-1.096.356-1.192 1.694-1.235l.293-.01v5.09c0 .47-.1.582-.898.655v.5H9.41v-.5c-.803-.073-.903-.184-.903-.654V6.755l.298.01c1.338.043 1.514.14 1.694 1.235h.5l-.057-2z"/>
+                                                                        <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+                                                                    </svg>
+                                                                    
+                                                                        
+                                                                    <strong>
+                                                                        Diário de bordo
+                                                                    </strong> 
+                                                                </a>
+                                                            </i>
                                                             
                                                         
-                                                                <p><strong>Como se tornar um jovem cientista? Ajudamos você, a partir de um problema ou pergunta, a elaborar e desenvolver um projeto de pesquisa, desde a definição do grupo até a apresentação na feira. A equipe da Bragantec preparou um material para auxiliar os estudantes nesta jornada, etapa por etapa. Junte seu grupo e <a class="normal-link" href="/prepare-se/">vem com a gente!</a></strong></p>
                                                             
-                                                        
-                                                                            
+                                                        </li>
+                                                        <li>
+                                                            <i>
+                                                                <a href="https://docs.google.com/document/d/1tC_pyxLzKjU7QWBzRFjMSZ3i_TL6ZlSz/edit?usp=sharing&ouid=116362706271690594302&rtpof=true&sd=true">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-file-earmark-font" viewBox="0 0 16 16">
+                                                                        <path d="M10.943 6H5.057L5 8h.5c.18-1.096.356-1.192 1.694-1.235l.293-.01v5.09c0 .47-.1.582-.898.655v.5H9.41v-.5c-.803-.073-.903-.184-.903-.654V6.755l.298.01c1.338.043 1.514.14 1.694 1.235h.5l-.057-2z"/>
+                                                                        <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+                                                                    </svg>
+                                                                    
+                                                                        
+                                                                    <strong>
+                                                                        Relatório
+                                                                    </strong> 
+                                                                </a>
+                                                            </i>
+                                                            
+                                                        </li>
+                                                        <li>
+                                                            <i>
+                                                                <a href="https://docs.google.com/presentation/d/1MxNus4i38LPknySZRwT9Xz187jJiNd9d/edit?usp=sharing&ouid=116362706271690594302&rtpof=true&sd=true">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-file-earmark-font" viewBox="0 0 16 16">
+                                                                        <path d="M10.943 6H5.057L5 8h.5c.18-1.096.356-1.192 1.694-1.235l.293-.01v5.09c0 .47-.1.582-.898.655v.5H9.41v-.5c-.803-.073-.903-.184-.903-.654V6.755l.298.01c1.338.043 1.514.14 1.694 1.235h.5l-.057-2z"/>
+                                                                        <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+                                                                    </svg>
+                                                                    
+                                                                        
+                                                                    <strong>
+                                                                        Pôster
+                                                                    </strong> 
+                                                                </a>
+                                                            </i>
+                                                                    
+                                                        </li>
+                                                        <li>
+                                                            <i>
+                                                                <a href="https://docs.google.com/document/d/1_ciOwHGAn6FONU_iaownGC_aR6yfm0x6/edit?usp=sharing&ouid=116362706271690594302&rtpof=true&sd=true">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-file-earmark-font" viewBox="0 0 16 16">
+                                                                        <path d="M10.943 6H5.057L5 8h.5c.18-1.096.356-1.192 1.694-1.235l.293-.01v5.09c0 .47-.1.582-.898.655v.5H9.41v-.5c-.803-.073-.903-.184-.903-.654V6.755l.298.01c1.338.043 1.514.14 1.694 1.235h.5l-.057-2z"/>
+                                                                        <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+                                                                    </svg>
+                                                                    
+                                                                        
+                                                                    <strong>
+                                                                        Autorização de uso de imagem e voz
+                                                                    </strong> 
+                                                                </a>
+                                                            </i>
+                                                            
+                                                        </li>
+                                                    
+                                                </ul>
+
+                                                </div>
+                                                
+                                                    
+                                                
+                                                
+                                                
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>         
+                        </div>
+                            
+                    </div>
+                </div>
+            </section>
+
+            <section id="fei_ali" class="fei_ali">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="seção-titulo">
+                            <div class="texto">
+                                <h1>Feiras afiliadas</h1>
+                                <h2>Inscreva a Feira da sua instituição como Afiliada e nos ajude a descobrir novos talentos e criar novas oportunidades.</h2>
+
+                            </div>
+                            
+                            
+                        </div>  
+                        <div class="col-xl-10">
+
+                            
+                    
+                        
+
+                            <div class="fei_box">
+                                <div class="row">
+                                
+                                    <div class="margen">
+                                        <div class="ali_box">
+                                            <h3>Se sua escola ou instituição realiza uma Feira ou Mostra Científica, é possível inscrevê-la como Feira Afiliada e indicar os melhores projetos diretamente às vagas definidas. Confira o Regulamento de Feiras Afiliadas e preencha o formulário.</h3>
+                                            <div class="org_bt">
+                                                <div class="posi_bt">
+                                                    <button type="button" class="card-btn open-overlay" onclick="location.href='https://drive.google.com/file/d/1J8fcGQJiOvVEw7XGT1-jpxgx1DgdfMAX/view?usp=sharing'" type="button"><strong class="card_btn_text">Regulamento feiras afiliadas</strong></button>
                                                 </div>
                                                 <div class="posi_bt">
-                                                    <button class="card-btn fecha-bt" id="EX_passo1">Fechar</button>
-                                                </div>
+                                                    <button type="button" class="card-btn open-overlay" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSfyfKApaEbUw9afBbDK1dVGpbgui4-VCRcGJocVCSU57q1VJQ/viewform'" type="button"><strong class="card_btn_text">Inscreva-se feiras afiliadas</strong></button>
+                                                </div> 
                                             </div>
                                             
                                         </div>
                                         
                                     </div>
 
-                                    <div class="col-lg-4 margen">
-                                        <div class="parcitipe_box">
-                                            <h3>Inscreva seu projeto</h3>
-                                            <p>Para fazer a inscrição de um trabalho, você vai precisar seguir os passos abaixo:
-                                                :</p>
-                                            
-                                            <ul class="part_text">
-                                                <li>
-                                                    <p>
-                                                        <i>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-1-circle-fill" viewBox="0 0 16 16">
-                                                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z"/>
-                                                            </svg>    
-                                                        </i>
-                                                        <strong>Em primeiro lugar, todos os membros do grupo devem fazer o cadastro individualmente no sistema de submissão, inclusive orientador e coorientador. Serão solicitados dados como nome, e-mail, CPF, escola etc.</strong>
-                                                    </p>
-                                                </li>
-                                                <li>
-                                                    <p>
-                                                        <i>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-2-circle-fill" viewBox="0 0 16 16">
-                                                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428 1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z"/>
-                                                                </svg>
-                                                                
-                                                        </i>
-                                                        <strong>Após todos realizarem o cadastro no sistema, um dos estudantes do grupo deve fazer a submissão do projeto. Para isso é necessário enviar o Plano de Pesquisa em PDF, conforme modelo ao lado, Resumo com no máximo 300 caracteres, 3 palavras-chave e e-mail dos participantes. </strong>
-
-                                                    </p>
-                                                    
-                                                </li>
-                                                <li>
-                                                    <p>
-                                                        <i>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-3-circle-fill" viewBox="0 0 16 16">
-                                                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.082.414c.92 0 1.535.54 1.541 1.318.012.791-.615 1.36-1.588 1.354-.861-.006-1.482-.469-1.54-1.066H5.104c.047 1.177 1.05 2.144 2.754 2.144 1.653 0 2.954-.937 2.93-2.396-.023-1.278-1.031-1.846-1.734-1.916v-.07c.597-.1 1.505-.739 1.482-1.876-.03-1.177-1.043-2.074-2.637-2.062-1.675.006-2.59.984-2.625 2.12h1.248c.036-.556.557-1.054 1.348-1.054.785 0 1.348.486 1.348 1.195.006.715-.563 1.237-1.342 1.237h-.838v1.072h.879Z"/>
-                                                                </svg>
-                                                        </i>
-                                                        <strong style="text-align: left;">Pronto, agora é só aguardar o resultado da seleção.</strong>
-
-                                                    </p>
-                                                    
-                                                    
-                                                    
-                                                </li>
-                                                
-                                            </ul>
-                                            <div class="posi_bt">
-                                                <button type="button" class="card-btn open-overlay" onclick="location.href='http://rafaelmuniz.com.br/sisbragantec/'" type="button"><strong class="card_btn_text">Inscreva-se</strong></button>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 margen">
-                                        <div class="parcitipe_box">
-                                            <h3>Documentos</h3>
-                                            <p>Conheça o regulamento da BRAGANTEC e os modelos de documentos importantes para sua participação na feira.</p>
-                                            <div class="modelo_txt">
-                                                <ul class="part_text">
-                                                    <li>
-                                                        <i>
-                                                            <a href="https://drive.google.com/file/d/1Uznc4U5GIvFGiidQM5dZXHPSap0BeWph/view">
-                                                                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-file-earmark-font" viewBox="0 0 16 16">
-                                                                    <path d="M10.943 6H5.057L5 8h.5c.18-1.096.356-1.192 1.694-1.235l.293-.01v5.09c0 .47-.1.582-.898.655v.5H9.41v-.5c-.803-.073-.903-.184-.903-.654V6.755l.298.01c1.338.043 1.514.14 1.694 1.235h.5l-.057-2z"/>
-                                                                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
-                                                                </svg>
-                                                                
-                                                                    
-                                                                <strong>
-                                                                    Regulamento 14ª BRAGANTEC
-                                                                </strong> 
-                                                            </a>
-                                                        </i>
-                                                    
-                                                    </li>
-                                                    <li>
-                                                        <i>
-                                                            <a href="https://docs.google.com/document/d/1rPyRiaAtCPLSFkL5a1Rg0sx0s4nggU8K/edit?usp=sharing&ouid=116362706271690594302&rtpof=true&sd=true">
-                                                                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-file-earmark-font" viewBox="0 0 16 16">
-                                                                    <path d="M10.943 6H5.057L5 8h.5c.18-1.096.356-1.192 1.694-1.235l.293-.01v5.09c0 .47-.1.582-.898.655v.5H9.41v-.5c-.803-.073-.903-.184-.903-.654V6.755l.298.01c1.338.043 1.514.14 1.694 1.235h.5l-.057-2z"/>
-                                                                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
-                                                                </svg>
-                                                                
-                                                                    
-                                                                <strong>
-                                                                    Plano de pesquisa (modelo em word)
-                                                                </strong> 
-                                                            </a>
-                                                        </i>
-                                                    
-                                                    </li>
-                                                    <li>
-                                                        <i>
-                                                            <a href="https://docs.google.com/document/d/1nZqsjdfuRFIncWzo82gS3CxgZP1PB61zHy9xMnH2Jls/edit?usp=sharing">
-                                                                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-file-earmark-font" viewBox="0 0 16 16">
-                                                                    <path d="M10.943 6H5.057L5 8h.5c.18-1.096.356-1.192 1.694-1.235l.293-.01v5.09c0 .47-.1.582-.898.655v.5H9.41v-.5c-.803-.073-.903-.184-.903-.654V6.755l.298.01c1.338.043 1.514.14 1.694 1.235h.5l-.057-2z"/>
-                                                                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
-                                                                </svg>
-                                                                
-                                                                    
-                                                                <strong>
-                                                                    Diário de bordo
-                                                                </strong> 
-                                                            </a>
-                                                        </i>
-                                                        
-                                                    
-                                                        
-                                                    </li>
-                                                    <li>
-                                                        <i>
-                                                            <a href="https://docs.google.com/document/d/1tC_pyxLzKjU7QWBzRFjMSZ3i_TL6ZlSz/edit?usp=sharing&ouid=116362706271690594302&rtpof=true&sd=true">
-                                                                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-file-earmark-font" viewBox="0 0 16 16">
-                                                                    <path d="M10.943 6H5.057L5 8h.5c.18-1.096.356-1.192 1.694-1.235l.293-.01v5.09c0 .47-.1.582-.898.655v.5H9.41v-.5c-.803-.073-.903-.184-.903-.654V6.755l.298.01c1.338.043 1.514.14 1.694 1.235h.5l-.057-2z"/>
-                                                                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
-                                                                </svg>
-                                                                
-                                                                    
-                                                                <strong>
-                                                                    Relatório
-                                                                </strong> 
-                                                            </a>
-                                                        </i>
-                                                        
-                                                    </li>
-                                                    <li>
-                                                        <i>
-                                                            <a href="https://docs.google.com/presentation/d/1MxNus4i38LPknySZRwT9Xz187jJiNd9d/edit?usp=sharing&ouid=116362706271690594302&rtpof=true&sd=true">
-                                                                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-file-earmark-font" viewBox="0 0 16 16">
-                                                                    <path d="M10.943 6H5.057L5 8h.5c.18-1.096.356-1.192 1.694-1.235l.293-.01v5.09c0 .47-.1.582-.898.655v.5H9.41v-.5c-.803-.073-.903-.184-.903-.654V6.755l.298.01c1.338.043 1.514.14 1.694 1.235h.5l-.057-2z"/>
-                                                                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
-                                                                </svg>
-                                                                
-                                                                    
-                                                                <strong>
-                                                                    Pôster
-                                                                </strong> 
-                                                            </a>
-                                                        </i>
-                                                                
-                                                    </li>
-                                                    <li>
-                                                        <i>
-                                                            <a href="https://docs.google.com/document/d/1_ciOwHGAn6FONU_iaownGC_aR6yfm0x6/edit?usp=sharing&ouid=116362706271690594302&rtpof=true&sd=true">
-                                                                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-file-earmark-font" viewBox="0 0 16 16">
-                                                                    <path d="M10.943 6H5.057L5 8h.5c.18-1.096.356-1.192 1.694-1.235l.293-.01v5.09c0 .47-.1.582-.898.655v.5H9.41v-.5c-.803-.073-.903-.184-.903-.654V6.755l.298.01c1.338.043 1.514.14 1.694 1.235h.5l-.057-2z"/>
-                                                                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
-                                                                </svg>
-                                                                
-                                                                    
-                                                                <strong>
-                                                                    Autorização de uso de imagem e voz
-                                                                </strong> 
-                                                            </a>
-                                                        </i>
-                                                        
-                                                    </li>
-                                                
-                                            </ul>
-
-                                            </div>
-                                            
-                                                
-                                            
-                                            
-                                            
-                                        </div>
-                                    </div>
-
                                 </div>
                             </div>         
+                        </div>
+                            
                     </div>
-                        
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="fei_ali" class="fei_ali">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="seção-titulo">
-                        <h1>Feiras afiliadas</h1>
-                        <h2></h2>
-                        
-                    </div>  
-                    <div class="col-xl-10">
-
-                        
-                
+            <section id="apoie" class="apoie">
+                <div class="container-fluid">
                     
-
-                        <div class="fei_box">
-                            <div class="row">
-                            
-                                <div class="margen">
-                                    <div class="ali_box">
-                                        <h3>Se sua escola ou instituição realiza uma Feira ou Mostra Científica, é possível inscrevê-la como Feira Afiliada e indicar os melhores projetos diretamente às vagas definidas. Confira o Regulamento de Feiras Afiliadas e preencha o formulário.</h3>
-                                        <div class="org_bt">
-                                            <div class="posi_bt">
-                                                <button type="button" class="card-btn open-overlay" onclick="location.href='https://drive.google.com/file/d/1J8fcGQJiOvVEw7XGT1-jpxgx1DgdfMAX/view?usp=sharing'" type="button"><strong class="card_btn_text">Regulamento feiras afiliadas</strong></button>
-                                            </div>
-                                            <div class="posi_bt">
-                                                <button type="button" class="card-btn open-overlay" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSfyfKApaEbUw9afBbDK1dVGpbgui4-VCRcGJocVCSU57q1VJQ/viewform'" type="button"><strong class="card_btn_text">Inscreva-se feiras afiliadas</strong></button>
-                                            </div> 
-                                        </div>
-                                           
-                                    </div>
-                                    
-                                </div>
-
-                            </div>
-                        </div>         
-                    </div>
-                        
-                </div>
-            </div>
-        </section>
-
-        <section id="apoie" class="apoie">
-            <div class="container-fluid">
-                
-      
-                <div class="row justify-content-center">
-                    <div class="seção-titulo">
-                        <h1>Como apoiar a 14ª BRAGANTEC</h1 >
-                        <h2>Apoie este evento e ajude a impactar com ciência a vida dos jovens cientistas da região.</h2>
-                        
-                    </div>
-
-                    <div class="col-xl-10">
- 
-
-                        <div class="apoie_apresenta_box">
-                             <div class="row">
-                             
-
-                                 <div>
-                                     <div class="apoie_box">
-                                         <h3>O Campus Bragança Paulista divulga a chamada pública com o objetivo de atrair o apoio de pessoas jurídicas para realização da 14ª BRAGANTEC.</h3>
-                                         <h3>Confira os detalhes no nosso edital de apoio disponibilizado abaixo.</h3>
-                                         
-                                         <div class="apoie_bt">
-                                            <button type="button" class="card-btn" onclick="location.href='https://bra.ifsp.edu.br/ultimas-noticias/4621-chamada-publica-para-captacao-de-apoio-a-realizacao-de-eventos-do-ifsp-bra-em-2024'" type="button"><strong class="card_btn_text">Edital de apoio</strong></button>
-                                        </div>
-
-                                         <h3>Qualquer dúvida, entrar em contato com <a href="mailto:cex.bra@ifsp.edu.br" target="_blank" rel="noopener noreferrer"><strong>cex.bra@ifsp.edu.br</strong></a>.</h3>
-                                         
-                                         
-                                         
-                                     </div>
-                                     
-                                 </div>
-                                 
-
-                                 
-                     
-                                 
-                     
-                                 
-
-                             </div>
-                        </div>            
-                          
-      
-                 
-                    </div>
-                 
-                    <br>    
-                </div>
-            </div>
-        </section>
-
-
-        <section id="edi-ant" class="edi-ant">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="seção-titulo">
-                        <h1>Edições Anteriores</h1>
-                        <h2>Confira aqui, o que rolou em edições anteriores da BRAGANTEC</h2>
-                    </div>
-
-                    <div class="row justify-content-center">
-                        <div class="col-xl-10">
-
-
-
-                            
-                            <div class="swiper mySwiper">
-                                <div class="swiper-wrapper">
-
-                                    <div class="swiper-slide">
-                                        <a href="https://feirabragantec.com.br/2023" rel="noopener noreferrer" target="_blank">
-                                            <article>
-                                                <div class="edit-img">
-                                                    <img src="assets/img/edi_ant/Bra2022.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <h2 class="edit-title">
-                                                    13ª Bragantec – 2023 – Ed. presencial
-                                                </h2>
-                                            </article>  
-
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <a href="https://feirabragantec.com.br/2022" rel="noopener noreferrer" target="_blank">
-                                            <article>
-                                                <div class="edit-img">
-                                                    <img src="assets/img/edi_ant/Bra2022.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <h2 class="edit-title">
-                                                    12ª Bragantec – 2022 – Ed. presencial
-                                                </h2>
-                                            </article>  
-
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <a href="https://feirabragantec.com.br/2021" rel="noopener noreferrer" target="_blank">
-                                            <article>
-                                                <div class="edit-img">
-                                                    <img src="assets/img/edi_ant/Bra2021.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <h2 class="edit-title">
-                                                    11ª Bragantec – 2021 – Ed. virtual
-                                                </h2>
-                                            </article>  
-
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <a href="https://feirabragantec.com.br/2020" rel="noopener noreferrer" target="_blank">
-                                            <article>
-                                                <div class="edit-img">
-                                                    <img src="assets/img/edi_ant/Bra2020.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <h2 class="edit-title">
-                                                    10ª Bragantec – 2020 – Ed. virtual
-                                                </h2>
-                                            </article>  
-
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <a href="https://drive.ifsp.edu.br/s/neoyurElLKpTsBx" rel="noopener noreferrer" target="_blank">
-                                            <article>
-                                                <div class="edit-img">
-                                                    <img src="assets/img/edi_ant/Bra2019.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <h2 class="edit-title">
-                                                    9ª Bragantec – 2019 Caderno de Resumos
-                                                </h2>
-                                            </article>  
-
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <a href="https://drive.ifsp.edu.br/s/FcQiqiwqmrsuN1J">
-                                            <article>
-                                                <div class="edit-img">
-                                                    <img src="assets/img/edi_ant/Bra2018.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <h2 class="edit-title">
-                                                    8ª Bragantec – 2018 Caderno de Resumos
-                                                </h2>
-                                            </article>  
-
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <a href="https://drive.ifsp.edu.br/s/xlh2iQ5LPSKqx9i">
-                                            <article>
-                                                <div class="edit-img">
-                                                    <img src="assets/img/edi_ant/Bra2017.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <h2 class="edit-title">
-                                                    7ª Bragantec – 2017 Caderno de Resumos
-                                                </h2>
-                                            </article>  
-
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <a href="https://drive.ifsp.edu.br/s/H6KvFigQ2UxnEjZ">
-                                            <article>
-                                                <div class="edit-img">
-                                                    <img src="assets/img/edi_ant/Bra2016.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <h2 class="edit-title">
-                                                    6ª Bragantec – 2016 Caderno de Resumos
-                                                </h2>
-                                            </article>  
-
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <a href="https://drive.ifsp.edu.br/s/iBpM5pSLlFk7Gew">
-                                            <article>
-                                                <div class="edit-img">
-                                                    <img src="assets/img/edi_ant/Bra2015.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <h2 class="edit-title">
-                                                    5ª Bragantec – 2015 Caderno de Resumos
-                                                </h2>
-                                            </article>  
-
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <a href="https://drive.ifsp.edu.br/s/UGRQObVjPbkrzWw">
-                                            <article>
-                                                <div class="edit-img">
-                                                    <img src="assets/img/edi_ant/Bra2014.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <h2 class="edit-title">
-                                                    4ª Bragantec – 2014 Caderno de Resumos
-                                                </h2>
-                                            </article>  
-
-                                        </a>
-                                    </div>
-                                    
-                                    <div class="swiper-slide">
-                                        <a href="https://drive.ifsp.edu.br/s/kwLxUYpG3l75oHQ">
-                                            <article>
-                                                <div class="edit-img">
-                                                    <img src="assets/img/edi_ant/Bra2013.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <h2 class="edit-title">
-                                                    3ª Bragantec – 2013 Caderno de Resumos
-                                                </h2>
-                                            </article>  
-
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <a href="https://drive.ifsp.edu.br/s/vVRubW9zzA1Babo">
-                                            <article>
-                                                <div class="edit-img">
-                                                    <img src="assets/img/edi_ant/Bra2012.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <h2 class="edit-title">
-                                                    2ª Bragantec – 2012 Caderno de Resumos
-                                                </h2>
-                                            </article>  
-
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <a href="https://drive.ifsp.edu.br/s/HFuVWqAFZ2mbR50">
-                                            <article>
-                                                <div class="edit-img">
-                                                    <img src="assets/img/edi_ant/Bra2011.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <h2 class="edit-title">
-                                                    1ª Bragantec – 2011 Caderno de Resumos
-                                                </h2>
-                                            </article>  
-
-                                        </a>
-                                    </div>
-                                    
-                                </div>
-                                <div class="swiper-pagination"></div>
-                            </div>
-
-
-
-
-                        </div>
-
-
-                       
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="contato_agd" id="contato">
-            <div class="container-fluid">
-
-                <div class="seção-titulo">
-                    <h1>Contatos</h1>
-                    <h2>Tem alguma <span>dúvida</span>? Entre em contato através do formulário abaixo.</h2>
-                </div>
-                <div class="grade-cards">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-10">
-                            <div class="info">
-                                <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.040632504208!2d-46.56067328448231!3d-22.94873064513978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cecb55ee153643%3A0xa53800f610a73b6f!2sIFSP%20C%C3%A2mpus%20Bragan%C3%A7a%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1660590899171!5m2!1spt-BR!2sbr" frameborder="0" allowfullscreen=""></iframe>
-                        
-                            </div>
-                            </div>
-                    </div>
-                </div>
-
-                <div class="grade-cards">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-10">
-                            <div class="cont_agd">
-                                <div class="row">
-                                    <div class="col-lg-4 d-flex flex-column align-items-stretch">
-    
-                                        <div class=" info">
-                                            <div class="icon-contatos">
-                                                <h4>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
-                                                    </svg>
-                                                    <strong>Endereço</strong>
-                                                </h4>
-                                            </div>
-                                            
-                                            
-                                            
-    
-                                            <p><strong>Avenida Major Fernando Valle, 2013<br>Bragança Paulista, SP</strong></p>
-                                        </div>
-    
-                                        <div class="info d-flex flex-column align-items-stretch">
-                                            
-                                            <div class="icon-contatos">
-                                                <h4>
-                                                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
-                                                        <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/>
-                                                        <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/>
-                                                    </svg>
         
-                                                    Fale concosco:
-                                                </h4>
-                                                <p><a href="mailto:bragantec@ifsp.edu.br" target="_blank" rel="noopener noreferrer"><strong>bragantec@ifsp.edu.br</strong></a></p>
-                                            </div>
-                                            
-                                                
-    
-                                        </div>
-                                        <div class="info d-flex flex-column align-items-stretch">
-                                            <div class="icon-contatos">
-                                                <h4>Redes Sociais:</h4>
-                                                <p><strong>Obtenha mais informações sobre este evento acompanhando as nossas redes sociais.</strong></p>
-                                                
-                                                   
-                                                    <div class="redes-soc  mt-3 ">
-                                                      <a href="https://www.facebook.com/bragantec">
-                                                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-                                                        </svg>
-                                                      </a>
-                                                      <a href="https://www.instagram.com/bragantec/">
-                                                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                                                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-                                                          </svg>
-                                                      </a>
-                                                      <a href="https://www.youtube.com/channel/UCwYEYoRjTprQSAmevUMv3lw">
-                                                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
-                                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
-                                                        </svg>
-                                                      </a>
-                                                      
-                                                   
-                                                    </div>
-                                                
-                                            </div>
-    
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-8 d-flex flex-column align-items-stretch">
-                                        <div id=" agendahr">
-    
-    
-                                            <form id="cont_bra" method="post" role="form" class="php-email-form">
-    
-                                                <div class="row">
-                                                    <div class="col-md-6 form-group">
-                                                        <label for="nome"><strong>Nome:</strong></label>
-                                                        <input type="text" name="nome" class="form-control" id="nome" required="">
-                                                    </div>
-                                                    <div class="col-md-6 form-group mt-3 mt-md-0">
-                                                        <label for="email"><strong>Email:</strong></label>
-                                                        <input type="email" class="form-control" name="email" id="email" required="">
-                                                    </div>
-                                                </div>
-                                                <div class="form-group mt-3">
-                                                    <label for="assunto"><strong>Assunto:</strong></label>
-                                                    <select id="assunto" class="form-select" name="assunto" required="">
-                                                        <option id="desabilitar" value="" selected="">Por favor escolha uma opção</option>
-                                                        <option value="Inscrição e submissão.">Inscrição e submissão</option>
-                                                        <option value="Feiras afiliadas.">Feiras afiliadas</option>
-                                                        <option value="Visitas escolares.">Visitas escolares</option>
-                                                        <option value="Avaliadores.">Avaliadores</option>
-                                                        <option value="Outros.">Outros</option>
-                                                    </select>
-                                                </div>
-    
-                                                <div id="seção_msg" style="display: block;">
-                                                    <div class="form-group mt-3">
-                                                        <label for="menssage"><strong>Mensagem:</strong></label>
-                                                        <textarea class="form-control" name="menssage" rows="8" id="menssage" required=""></textarea>
-                                                    </div>
-                                                </div>
-    
-                                            
-                                                <!--processa formulario-->
-                                                <div class="process-msg">
-                                                    <span id="span_menssagem_user"></span>
-                                                </div>
-                                                <!--Fim processa formulario-->
-    
-    
-                                                <div class="text-center">
-                                                    <button type="submit" name="enviar" id="envia"><strong>Enviar</strong></button>
-                                                </div>
-                     
-    
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="row justify-content-center">
+                        <div class="seção-titulo">
+                            <div class="texto">
+                                <h1>Como apoiar a 14ª BRAGANTEC</h1 >
+                                <h2>Apoie este evento e ajude a impactar com ciência a vida dos jovens cientistas da região.</h2>
+
                             </div>
+                            
+                            
+                        </div>
+
+                        <div class="col-xl-10">
+    
+
+                            <div class="apoie_apresenta_box">
+                                <div class="row">
+                                
+
+                                    <div>
+                                        <div class="apoie_box">
+                                            <h3>O Campus Bragança Paulista divulga a chamada pública com o objetivo de atrair o apoio de pessoas jurídicas para realização da 14ª BRAGANTEC.</h3>
+                                            <h3>Confira os detalhes no nosso edital de apoio disponibilizado abaixo.</h3>
+                                            
+                                            <div class="apoie_bt">
+                                                <button type="button" class="card-btn" onclick="location.href='https://bra.ifsp.edu.br/ultimas-noticias/4621-chamada-publica-para-captacao-de-apoio-a-realizacao-de-eventos-do-ifsp-bra-em-2024'" type="button"><strong class="card_btn_text">Edital de apoio</strong></button>
+                                            </div>
+
+                                            <h3>Qualquer dúvida, entrar em contato com <a href="mailto:cex.bra@ifsp.edu.br" target="_blank" rel="noopener noreferrer"><strong>cex.bra@ifsp.edu.br</strong></a>.</h3>
+                                            
+                                            
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                    
+
+                                    
+                        
+                                    
+                        
+                                    
+
+                                </div>
+                            </div>            
+                            
+        
+                    
+                        </div>
+                    
+                        <br>    
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="edi-ant" class="edi-ant">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="seção-titulo">
+                            <div class="texto">
+                                <h1>Edições Anteriores</h1>
+                                <h2>Confira aqui, o que rolou em edições anteriores da BRAGANTEC</h2>
+                            </div>
+                            
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-xl-10">
+
+
+
+                                
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+
+                                        <div class="swiper-slide">
+                                            <a href="https://feirabragantec.com.br/2023" rel="noopener noreferrer" target="_blank">
+                                                <article>
+                                                    <div class="edit-img">
+                                                        <img src="assets/img/edi_ant/Bra2022.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <h2 class="edit-title">
+                                                        13ª Bragantec – 2023 – Ed. presencial
+                                                    </h2>
+                                                </article>  
+
+                                            </a>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <a href="https://feirabragantec.com.br/2022" rel="noopener noreferrer" target="_blank">
+                                                <article>
+                                                    <div class="edit-img">
+                                                        <img src="assets/img/edi_ant/Bra2022.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <h2 class="edit-title">
+                                                        12ª Bragantec – 2022 – Ed. presencial
+                                                    </h2>
+                                                </article>  
+
+                                            </a>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <a href="https://feirabragantec.com.br/2021" rel="noopener noreferrer" target="_blank">
+                                                <article>
+                                                    <div class="edit-img">
+                                                        <img src="assets/img/edi_ant/Bra2021.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <h2 class="edit-title">
+                                                        11ª Bragantec – 2021 – Ed. virtual
+                                                    </h2>
+                                                </article>  
+
+                                            </a>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <a href="https://feirabragantec.com.br/2020" rel="noopener noreferrer" target="_blank">
+                                                <article>
+                                                    <div class="edit-img">
+                                                        <img src="assets/img/edi_ant/Bra2020.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <h2 class="edit-title">
+                                                        10ª Bragantec – 2020 – Ed. virtual
+                                                    </h2>
+                                                </article>  
+
+                                            </a>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <a href="https://drive.ifsp.edu.br/s/neoyurElLKpTsBx" rel="noopener noreferrer" target="_blank">
+                                                <article>
+                                                    <div class="edit-img">
+                                                        <img src="assets/img/edi_ant/Bra2019.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <h2 class="edit-title">
+                                                        9ª Bragantec – 2019 Caderno de Resumos
+                                                    </h2>
+                                                </article>  
+
+                                            </a>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <a href="https://drive.ifsp.edu.br/s/FcQiqiwqmrsuN1J">
+                                                <article>
+                                                    <div class="edit-img">
+                                                        <img src="assets/img/edi_ant/Bra2018.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <h2 class="edit-title">
+                                                        8ª Bragantec – 2018 Caderno de Resumos
+                                                    </h2>
+                                                </article>  
+
+                                            </a>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <a href="https://drive.ifsp.edu.br/s/xlh2iQ5LPSKqx9i">
+                                                <article>
+                                                    <div class="edit-img">
+                                                        <img src="assets/img/edi_ant/Bra2017.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <h2 class="edit-title">
+                                                        7ª Bragantec – 2017 Caderno de Resumos
+                                                    </h2>
+                                                </article>  
+
+                                            </a>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <a href="https://drive.ifsp.edu.br/s/H6KvFigQ2UxnEjZ">
+                                                <article>
+                                                    <div class="edit-img">
+                                                        <img src="assets/img/edi_ant/Bra2016.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <h2 class="edit-title">
+                                                        6ª Bragantec – 2016 Caderno de Resumos
+                                                    </h2>
+                                                </article>  
+
+                                            </a>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <a href="https://drive.ifsp.edu.br/s/iBpM5pSLlFk7Gew">
+                                                <article>
+                                                    <div class="edit-img">
+                                                        <img src="assets/img/edi_ant/Bra2015.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <h2 class="edit-title">
+                                                        5ª Bragantec – 2015 Caderno de Resumos
+                                                    </h2>
+                                                </article>  
+
+                                            </a>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <a href="https://drive.ifsp.edu.br/s/UGRQObVjPbkrzWw">
+                                                <article>
+                                                    <div class="edit-img">
+                                                        <img src="assets/img/edi_ant/Bra2014.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <h2 class="edit-title">
+                                                        4ª Bragantec – 2014 Caderno de Resumos
+                                                    </h2>
+                                                </article>  
+
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="swiper-slide">
+                                            <a href="https://drive.ifsp.edu.br/s/kwLxUYpG3l75oHQ">
+                                                <article>
+                                                    <div class="edit-img">
+                                                        <img src="assets/img/edi_ant/Bra2013.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <h2 class="edit-title">
+                                                        3ª Bragantec – 2013 Caderno de Resumos
+                                                    </h2>
+                                                </article>  
+
+                                            </a>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <a href="https://drive.ifsp.edu.br/s/vVRubW9zzA1Babo">
+                                                <article>
+                                                    <div class="edit-img">
+                                                        <img src="assets/img/edi_ant/Bra2012.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <h2 class="edit-title">
+                                                        2ª Bragantec – 2012 Caderno de Resumos
+                                                    </h2>
+                                                </article>  
+
+                                            </a>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <a href="https://drive.ifsp.edu.br/s/HFuVWqAFZ2mbR50">
+                                                <article>
+                                                    <div class="edit-img">
+                                                        <img src="assets/img/edi_ant/Bra2011.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <h2 class="edit-title">
+                                                        1ª Bragantec – 2011 Caderno de Resumos
+                                                    </h2>
+                                                </article>  
+
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+
+
+
+
+                            </div>
+
+
+                        
                             
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
 
-    
-        <footer id="footer">
-            <div class="container">
-                <div class="copyright">
-                    <div class="logo_footer">
-                        
+            <section class="contato_agd" id="contato">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+
+                        <div class="seção-titulo">
+                            <div class="texto">
+                                <h1>Contatos</h1>
+                                <h2>Tem alguma <span>dúvida</span>? Entre em contato através do formulário abaixo.</h2>
+                            </div>
+                        </div>
+                        <div class="grade-cards">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-10">
+                                    <div class="info">
+                                        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.040632504208!2d-46.56067328448231!3d-22.94873064513978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cecb55ee153643%3A0xa53800f610a73b6f!2sIFSP%20C%C3%A2mpus%20Bragan%C3%A7a%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1660590899171!5m2!1spt-BR!2sbr" frameborder="0" allowfullscreen=""></iframe>
+                                
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="grade-cards">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-10">
+                                    <div class="cont_agd">
+                                        <div class="row">
+                                            <div class="col-lg-4 d-flex flex-column align-items-stretch">
+            
+                                                <div class=" info">
+                                                    <div class="icon-contatos">
+                                                        <h4>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                                                            </svg>
+                                                            <strong>Endereço</strong>
+                                                        </h4>
+                                                    </div>
+                                                    
+                                                    
+                                                    
+            
+                                                    <p><strong>Avenida Major Fernando Valle, 2013<br>Bragança Paulista, SP</strong></p>
+                                                </div>
+            
+                                                <div class="info d-flex flex-column align-items-stretch">
+                                                    
+                                                    <div class="icon-contatos">
+                                                        <h4>
+                                                            <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                                                                <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/>
+                                                                <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/>
+                                                            </svg>
+                
+                                                            Fale concosco:
+                                                        </h4>
+                                                        <p><a href="mailto:bragantec@ifsp.edu.br" target="_blank" rel="noopener noreferrer"><strong>bragantec@ifsp.edu.br</strong></a></p>
+                                                    </div>
+                                                    
+                                                        
+            
+                                                </div>
+                                                <div class="info d-flex flex-column align-items-stretch">
+                                                    <div class="icon-contatos">
+                                                        <h4>Redes Sociais:</h4>
+                                                        <p><strong>Obtenha mais informações sobre este evento acompanhando as nossas redes sociais.</strong></p>
+                                                        
+                                                        
+                                                            <div class="redes-soc  mt-3 ">
+                                                            <a href="https://www.facebook.com/bragantec">
+                                                                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                                                </svg>
+                                                            </a>
+                                                            <a href="https://www.instagram.com/bragantec/">
+                                                                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                                                </svg>
+                                                            </a>
+                                                            <a href="https://www.youtube.com/channel/UCwYEYoRjTprQSAmevUMv3lw">
+                                                                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                                                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                                                </svg>
+                                                            </a>
+                                                            
+                                                        
+                                                            </div>
+                                                        
+                                                    </div>
+            
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 d-flex flex-column align-items-stretch">
+                                                <div id=" agendahr">
+            
+            
+                                                    <form id="cont_bra" method="post" role="form" class="php-email-form">
+            
+                                                        <div class="row">
+                                                            <div class="col-md-6 form-group">
+                                                                <label for="nome"><strong>Nome:</strong></label>
+                                                                <input type="text" name="nome" class="form-control" id="nome" required="">
+                                                            </div>
+                                                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                                                <label for="email"><strong>Email:</strong></label>
+                                                                <input type="email" class="form-control" name="email" id="email" required="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group mt-3">
+                                                            <label for="assunto"><strong>Assunto:</strong></label>
+                                                            <select id="assunto" class="form-select" name="assunto" required="">
+                                                                <option id="desabilitar" value="" selected="">Por favor escolha uma opção</option>
+                                                                <option value="Inscrição e submissão.">Inscrição e submissão</option>
+                                                                <option value="Feiras afiliadas.">Feiras afiliadas</option>
+                                                                <option value="Visitas escolares.">Visitas escolares</option>
+                                                                <option value="Avaliadores.">Avaliadores</option>
+                                                                <option value="Outros.">Outros</option>
+                                                            </select>
+                                                        </div>
+            
+                                                        <div id="seção_msg" style="display: block;">
+                                                            <div class="form-group mt-3">
+                                                                <label for="menssage"><strong>Mensagem:</strong></label>
+                                                                <textarea class="form-control" name="menssage" rows="8" id="menssage" required=""></textarea>
+                                                            </div>
+                                                        </div>
+            
+                                                    
+                                                        <!--processa formulario-->
+                                                        <div class="process-msg">
+                                                            <span id="span_menssagem_user"></span>
+                                                        </div>
+                                                        <!--Fim processa formulario-->
+            
+            
+                                                        <div class="text-center">
+                                                            <button type="submit" name="enviar" id="envia"><strong>Enviar</strong></button>
+                                                        </div>
                             
-                                <img alt="Bragantec" aria-label="Logo site" src="assets/img/logo/Bragantec_neutro.svg">
+            
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        
+            <footer id="footer">
+                <div class="container">
+                    <div class="instituição">
+                        <div class="logo_footer">
                             
+                                
+                                    <img alt="Bragantec" aria-label="Logo site" src="assets/img/logo/Bragantec_neutro.svg">
+                                
+                            
+                        </div>
+
+
+                        <p>© 2024 - BRAGANTEC - Instituto Federal de Ciencia e Tecnologia de São Paulo <strong><span>Campus Bragança Paulista</span></strong></p>
                         
+                        <p>Todos os direitos reservados.</p>
+                        <a onclick="location.href='https://www.linkedin.com/in/kleyton-m'"> Desenvolvido por Kleyton Moura </a>
                     </div>
 
-
-                    © 2024 - BRAGANTEC - Instituto Federal de Ciencia e Tecnologia de São Paulo <strong><span>Campus
-                            Bragança
-                            Paulista</span></strong>
-                    <br>
-                    Todos os direitos reservados.
+                    
+                    </p>
                 </div>
-
-                <p style=" text-align: center;"><br> Desenvolvido por Kleyton Moura </p>
-                </p>
-            </div>
-        </footer>
+            </footer>
 
 
 
 
 
 
-    </main>
-    <!-- =======inicio preoloader ======= -->
-    <div id="anima-bra"></div>
-    <!-- =======fim preoloader ======= -->
-    <script src="assets/bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
-    <script type="module" src="assets/js/main.js"></script>
-    
+        </main>
+        <!-- =======inicio preoloader ======= -->
+        <div id="anima-bra"></div>
+        <!-- =======fim preoloader ======= -->
+        <script src="assets/bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
+        <script type="module" src="assets/js/main.js"></script>
+        
 
-</body>
+    </body>
 
 </html>
