@@ -55,24 +55,24 @@ import { Swiper } from "../swiper/swiper-bundle.min.js";
  
  
   var nav_sec = document.getElementsByClassName("scrollto");   
-  var antes = "";
+  var veri_antes = "";
   for (var i = 0; i < nav_sec.length; i++) {
   
       nav_sec[i].onclick = function(e) {
   
-        if(antes!=this.hash){
+        if(veri_antes!=this.hash){
           e.preventDefault();
           let header = document.querySelector("header");
-          let offset = header.offsetHeight;
-          let elementPos = document.querySelector(this.hash).offsetTop;
+          let tm_barra_nav = header.offsetHeight;
+          let sec_posicao = document.querySelector(this.hash).offsetTop;
           window.scrollTo({
              
-              top: elementPos-offset,
+              top: sec_posicao-tm_barra_nav,
               behavior: 'smooth'
           })
 
         }
-        antes=this.hash;
+        veri_antes=this.hash;
   
           
   
